@@ -1,7 +1,12 @@
 # MicroProfile Working Group
 
-Repo to host official Working Group documents under revision control or
-provide links to externally hosted documents.
+Repo to host official Working Group documents under revision control
+or provide links to externally hosted documents.
+
+Documents hosted in this repo should be considered the cononical
+version and any representations elsewhere should be considered copies.
+In the event of a conflict between documents here and external copies
+the documents here prevail.
 
 ## Charter
 
