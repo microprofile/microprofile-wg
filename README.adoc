@@ -1,2 +1,3 @@
-# microprofile-wg
+# MicroProfile Working Group
+
 Repo to host official Working Group documents under revision control
