@@ -1,3 +1,17 @@
 # MicroProfile Working Group
 
-Repo to host official Working Group documents under revision control
+Repo to host official Working Group documents under revision control or
+provide links to externally hosted documents.
+
+## Charter
+
+ - https://www.eclipse.org/org/workinggroups/microprofile-charter.php
+ 
+## Mailing List
+
+ - https://accounts.eclipse.org/mailing-list/microprofile-wg
+ 
+## Agreements
+
+ - https://www.eclipse.org/org/workinggroups/wpga/microprofile-working-group-participation-agreement.pdf
+ - https://www.eclipse.org/org/workinggroups/wpga/microprofile-working-group-participation-agreement-individual.pdf
