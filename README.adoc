@@ -8,6 +8,11 @@ version and any representations elsewhere should be considered copies.
 In the event of a conflict between documents here and external copies
 the documents here prevail.
 
+Some official documents such as the MicroProfile Charter and
+Particiaption Agreements are managed elsewhere.  To avoid confusion
+with the above text these documents must be referenced by link only
+and never copied into this repository.
+
 ## Charter
 
  - https://www.eclipse.org/org/workinggroups/microprofile-charter.php
