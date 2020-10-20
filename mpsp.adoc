@@ -1,0 +1,22 @@
+# MicroProfile Specification Process
+
+_Version 1.0. Effective 10/20/20_
+
+The MicroProfile Specification Process (MPSP) is concerned with the Specification Process as it applies to Specification Projects operating under the purview of the MicroProfile Working Group.
+
+The MicroProfile Steering Committee hereby adopts the https://www.eclipse.org/projects/efsp/?version=1.2[Eclipse Foundation Specification Process v1.2 (EFSP)] as the MicroProfile Specification Process with the following modifications:
+
+* Any modification to or revision of this MicroProfile Specification Process, including the adoption of a new version of the EFSP, must be approved by a Super-majority of the Steering Committee in addition to any other ballot requirements set forth in the EFSP.
+* All specification ballot periods will have the durations outlined below (notwithstanding the exception process defined by the EFSP)
+** Creation Review: 7 calendar days;
+** Plan Review: 7 calendar days;
+** Progress Review: 14 calendar days;
+** Release Review: 14 calendar days;
+** Service Release Review: 14 calendar days; and
+** MPSP Update: 7 calendar days.
+* Each 7-day ballot will end after 7 days. Each 14-day ballot will conclude when either of the following occur:
+** The minimum 7 days have elapsed and all eligible members have voted
+** The 14 day ballot period has concluded
+* A ballot will be declared invalid and concluded immediately in the event that the Specification Team withdraws from the corresponding review.
+
+The EFSP takes precedence in cases where this document is silent. The primacy of the EFSP notwithstanding, this document takes precedence in all matters related to Specification development undertaken by Specification Projects within the purview of the MicroProfile Working Group.
