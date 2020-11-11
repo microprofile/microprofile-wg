@@ -40,4 +40,4 @@ When creating a specification project release review, create an issue in the [Mi
   - [ ] Start release review by [emailing EMO](mailto:EMO@eclipse-foundation.org) (Track the bug issue created by EMO after the email)
   - [ ] A member of Steering/Spec Committee initiates the ballot by sending an email to [microprofile-wg] (mailto:microprofile-wg@eclipse.org) 
   - [ ] Summary that a Compatible Implementation is complete, passes the TCK, and that the TCK includes sufficient coverage of the specification.
-     - [ ]Log [an issue](add link) of Compatible Certification Request in the corresponding spec repo (e.g. MicroProfile Config) 
+     - [ ] Log [an issue](add link) of Compatible Certification Request in the corresponding spec repo (e.g. MicroProfile Config) 
