@@ -1,12 +1,14 @@
 ---
 name: Specification Review Issue
 about: Start a request for a specification release
-title: [MP Component] [Version] Specification Review
-label: Release Review
+title: '[MP Component] [Version] Specification Review'
+label: 'Release Review'
 assignees: ''
+
 ---
 
-## Specification issue template
+**Specification issue template**
+
 When creating a specification project release review, create an issue in the [MicroProfile-WG repository](https://github.com/microprofile/microprofile-wg) repo with the content defined as follows.
 - [ ] Specification name and version
 - [ ] Add the label `Release Review`
