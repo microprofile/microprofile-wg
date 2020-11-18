@@ -2,7 +2,7 @@
 name: Specification Review Issue
 about: Start a request for a specification release
 title: '[MP Component] [Version] Specification Review'
-label: 'Release Review'
+labels: 'Release Review'
 assignees: ''
 
 ---
@@ -33,11 +33,14 @@ When creating a specification project release review, create an issue in the [Mi
    - [ ] An apidocs directory containing the javadoc associated with the API jar.
 <p>
 
+- [ ] Summary that a Compatible Implementation is complete, passes the TCK, and that the TCK includes sufficient coverage of the specification.
+     - [ ] [Compatible Certification Request] (add link of Compatible Certification Request in the corresponding spec repo (e.g. MicroProfile Config)
+<p>
+
 - [ ] [Release Review](https://www.eclipse.org/projects/handbook/#release-review)
   - [ ] Follow [governance process](https://projects.eclipse.org/projects/technology.microprofile/governance) and create/update release record
     - [Component Release Record](add link to the release record)
   - [ ] [Email to PMC](mailto:technology-pmc@eclipse.org)
   - [ ] Start release review by [emailing EMO](mailto:EMO@eclipse-foundation.org) (Track the bug issue created by EMO after the email)
   - [ ] A member of Steering/Spec Committee initiates the ballot by sending an email to [microprofile-wg] (mailto:microprofile-wg@eclipse.org) 
-  - [ ] Summary that a Compatible Implementation is complete, passes the TCK, and that the TCK includes sufficient coverage of the specification.
-     - [ ] Log [an issue](add link) of Compatible Certification Request in the corresponding spec repo (e.g. MicroProfile Config) 
+  
