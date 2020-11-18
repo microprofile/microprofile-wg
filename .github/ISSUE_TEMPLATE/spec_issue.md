@@ -19,7 +19,7 @@ When creating a specification project release review, create an issue in the [Mi
    - _version_ is the two digit x.y version of the specification
 <p>
 
-- [ ] The Nexus Staging links (orgeclipsemicroprofile-NNN where NNN is the staging repository id) (eg, https://oss.sonatype.org/content/repositories/orgeclipsemicroprofile-1357/org/eclipse/microprofile/config/) which contain all the binaries and relevant documentation:
+- [ ] The Nexus Staging links (orgeclipsemicroprofile-NNNN where NNNN is the staging repository id) (eg, https://<i></i>oss.sonatype.org/content/repositories/orgeclipsemicroprofile-NNNN/org/eclipse/microprofile/config/) which contain all the binaries and relevant documentation:
    - [ ] [Staging Repo](add link)
    - [ ] [Spec PDF](add link)
    - [ ] [Spec HTML](add link)
