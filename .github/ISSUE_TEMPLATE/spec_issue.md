@@ -41,6 +41,6 @@ When creating a specification project release review, create an issue in the [Mi
   - [ ] Follow [governance process](https://projects.eclipse.org/projects/technology.microprofile/governance) and create/update release record
     - [Component Release Record](add link to the release record)
   - [ ] [Email to PMC](mailto:technology-pmc@eclipse.org) (more info [here](https://docs.google.com/document/d/1DFuh3rINWAZQpHpXnB_QM02tAXlI4KwbLjVBk9rX9HA/edit))
-  - [ ] Start release review by [emailing EMO](mailto:EMO@eclipse-foundation.org) (more info [here](https://docs.google.com/document/d/1DFuh3rINWAZQpHpXnB_QM02tAXlI4KwbLjVBk9rX9HA/edit))(Track the [bug issue](add link) created by EMO after the email) 
+  - [ ] Start release review by [emailing EMO](mailto:EMO@eclipse-foundation.org) (more info [here](https://docs.google.com/document/d/1euy5ezuSpa6Xn4qV7MTXCWCMJIn16GYiiO-U7H6R-1w/edit))(Track the [bug issue](add link) created by EMO after the email) 
   - [ ] A member of Steering/Spec Committee initiates the ballot by sending an email to [microprofile-wg] (mailto:microprofile-wg@eclipse.org) (more info [here](https://docs.google.com/document/d/1ivzeL4mdqZPwyQR6e5GtCv81F_ZfLOpsg8FaZUoDDuc/edit#heading=h.6e35ro9vzyji)
   
