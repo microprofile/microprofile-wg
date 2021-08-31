@@ -1,6 +1,6 @@
 # MicroProfile TCK Process 1.0
 
-Specification Projects under the Eclipse Foundation Specification
+Specification Teams under the Eclipse Foundation Specification
 Process MUST produce a Technology Compatibility Kit (TCK) that delivers
 on the promise of enabling multiple compatible implementations.
 
@@ -23,15 +23,15 @@ This document defines:
 
 Artifacts:
 
--   Projects MUST produce the project licensed (EPL, Apache, etc.)
+-   Specification contributors MUST produce the team licensed (EPL, Apache, etc.)
     version for distribution to Maven Central or other open source
     channels, usable for automated, non-official testing, and
     implementation. No compatibility claims can be made on the basis of
     this TCK.
 
--   Projects MUST produce a final candidate binary that includes the
+-   Specification contributors MUST produce a final candidate binary that includes the
     https://www.eclipse.org/legal/tck.php[EFTL] license. The MicroProfile
-    Specification Committee will sign and promote project TCK binary
+    Specification Committee will sign and promote the Specification's TCK binary
     for distribution via Eclipse infrastructure on final approval. This
     is the TCK binary usable for self-certification when one desires to
     make a claim of compatibility.
@@ -71,7 +71,7 @@ Artifacts:
 
     -   Test assertion document
 
--   Release available via a release on project GitHub releases page(or
+-   Release available via a release on specification's GitHub project releases page(or
     equivalent)
 
     -   Final releases under the EFTL MUST be hosted on
@@ -80,7 +80,7 @@ Artifacts:
 [#_ratifying_a_final_tck]
 ### Ratifying a Final TCK
 
--   Projects will submit the EFTL proposed final binary of the TCK for
+-   Specifications will submit the EFTL proposed final binary of the TCK for
     approval to the Specification Committee.
 
 -   The Specification Committee will vote to approve or reject the TCK
@@ -171,7 +171,7 @@ and will be immediately closed if filed:
 [#_filing_a_challenge]
 ### Filing a Challenge
 
-Challenges MUST be filed via the specification project's issue tracker
+Challenges MUST be filed via the specification's Github issue tracker
 using the label `challenge` and include the following information:
 
 -   The relevant specification version and section number(s)
@@ -191,10 +191,9 @@ using the label `challenge` and include the following information:
 #_challenge_resolution
 ### Challenge Resolution
 
-Challenges can be resolved by a specification project lead, or a project
-challenge triage team, after a consensus of the specification project
-committers is reached or attempts to gain consensus fails. Specification
-projects may exercise lazy consensus, voting or any practice that
+Challenges can be resolved after a consensus of the specification
+contributors is reached or attempts to gain consensus fails. Specification
+contributors may exercise lazy consensus, voting or any practice that
 follows the principles of https://www.eclipse.org/projects/dev_process/[Eclipse Foundation Development
 Process].
 
@@ -203,11 +202,11 @@ Process].
 
 The failure to resolve a Challenge might prevent an implementation from
 going to market; Challenges SHOULD be given a high priority by the
-specification project and resolved in a timely manner. Two weeks or less
+specification contributors and resolved in a timely manner. Two weeks or less
 SHOULD be considered the ideal period of time to resolve a challenge.
 Challenges may go longer as needed, but as a rule SHOULD avoid months.
 
-If consensus cannot be reached by the specification project for a
+If consensus cannot be reached by the specification contributors for a
 prolonged period of time, the default recommendation is to exclude the
 tests and address the dispute in a future revision of the specification.
 
@@ -227,8 +226,8 @@ When a `challenge` issue is rejected, it MUST be closed with a label of
 `invalid` to indicate it has been rejected. The appeal process for
 challenges rejected on technical terms is outlined in Escalation Appeal.
 If, however, an implementer feels the TCK challenge process was not
-followed, an appeal issue MUST be filed with the specification project's
-issue tracker using the label `challenge-appeal`. A project lead MUST
+followed, an appeal issue MUST be filed with the specification's
+issue tracker using the label `challenge-appeal`. A contributor MUST
 escalate the issue with the MicroProfile Specification Committee via email
 (<microprofile-wg@eclipse.org>). The committee will evaluate the matter
 purely in terms of due process. If the appeal is accepted, the original
@@ -242,7 +241,7 @@ added, along with a discussion of the appeal decision, and the
 [#_excludes]
 ## Excludes
 
-Excludes MUST be included in the TCK project release in a format that is
+Excludes MUST be included in the specification's TCK release in a format that is
 compatible with the testing framework in use so that as the excludes are
 updated, the affected tests are automatically removed from the test
 suite.
@@ -251,7 +250,7 @@ suite.
 ## Improvement
 
 Requests for improvement to tests MUST simply be created as issues with
-a label of `enhancement` in the specification project's TCK issue
+a label of `enhancement` in the specification's TCK issue
 tracker.
 
 [#_certification_of_compatibility]
@@ -271,14 +270,14 @@ https://microprofile.io/legal/trademark_guidelines/[MicroProfile Trademark Guide
 information on the complete steps to obtain  branding usage.
 
 An approved certification request is a statement from the Specification
-Project you have met the intended TCK requirements and is just one of
+contributors you have met the intended TCK requirements and is just one of
 the requirements for logo usage. Logos only apply to the platform specification.
 
 [#_filing_a_certification_request]
 ### Filing a Certification Request
 
 Requests to be acknowledged as a certified implementation MUST be filed
-via the specification project's issue tracker using the label
+via the specification's issue tracker using the label
 `certification` and include the following information:
 
 -   Statement of Acceptance of the terms of the EFTL
@@ -306,7 +305,7 @@ via the specification project's issue tracker using the label
 [#_additional_specification_certification_requirements]
 ### Additional Specification Certification Requirements
 
-Specification projects may require additional items for a Certification
+Specification's may require additional items for a Certification
 Request as defined in their corresponding TCK Documentation under the
 section labeled \"Additional Certification Requirements\".
 
@@ -360,15 +359,13 @@ certification. The required approval processes is:
 
 -   Approval by lazy consensus after a period of two weeks (14 days)
 
--   Approval by a majority vote of the specification project as soon as
+-   Approval by a majority vote of the specification contributors as soon as
     it happens.
 
     -   The sum of the +1/-1 votes must be greater than 50% of the
-        specification project committers.
+        specification committers.
 
--   Approval by any top-level specification project lead at any time
-
-All specification project members are encouraged to review the request
+All specification contributors are encouraged to review the request
 and associated supporting materials. Reviewers of a certification
 request MUST carefully check the validity of all required data, in
 particular:
@@ -383,7 +380,7 @@ particular:
 -   test results are public and do not require special signup or viewing
     steps
 
-Any committer on the specification project may vote against the
+Any committer on the specification may vote against the
 certification request on the basis that the clearly defined requirements
 of the TCK process have not been met. This means that if there is a (-1)
 vote, lazy consensus is no longer an option and a majority vote MUST
