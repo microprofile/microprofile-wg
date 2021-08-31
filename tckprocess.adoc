@@ -236,7 +236,7 @@ added, along with a discussion of the appeal decision, and the
 `challenge-appeal` issue with be closed. If the appeal is rejected, the
 `challenge-appeal` issue MUST be closed with a label of `invalid`.
 
-![TCKProcess](tckprocess.png)
+image:tckprocess.png[TCK Process]
 
 [#_excludes]
 ## Excludes
