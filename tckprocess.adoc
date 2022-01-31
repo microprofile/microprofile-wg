@@ -261,23 +261,12 @@ implementation listed on the official https://microprofile.io[microprofile.io]
 implementations page for the given specification, a certification
 request as defined in this section is required.
 
-There are additional requirements that MUST be met by any organization
-wishing to use the MicroProfile Platform Compatible logo or
-https://microprofile.io[microprofile.io] website for promotion. Any
-request for certification from an organization not meeting the requirements
-will be held until such time as the requirements are met. See the
-https://microprofile.io/legal/trademark_guidelines/[MicroProfile Trademark Guidelines] for more
-information on the complete steps to obtain  branding usage.
-
-An approved certification request is a statement from the Specification
-contributors you have met the intended TCK requirements and is just one of
-the requirements for logo usage. Logos only apply to the platform specification.
 
 [#_filing_a_certification_request]
 ### Filing a Certification Request
 
 Requests to be acknowledged as a certified implementation MUST be filed
-via the specification's issue tracker using the label
+under the github repo https://github.com/eclipse/microprofile via the specification's issue tracker using the label
 `certification` and include the following information:
 
 -   Statement of Acceptance of the terms of the EFTL
@@ -351,11 +340,8 @@ run a TCK against their implementation, but it is not required.
 [#_certification_resolution]
 ### Certification Resolution
 
-As noted, certification requests do not in themselves grant rights to
-use the MicroProfile Platform Compatible logo. Approval that the TCK
-requirements have been met is a prerequisite for obtaining
-MicroProfile Platform Compatible logo usage for profile
-certification. The required approval processes is:
+Approval that the TCK requirements have been met is a prerequisite for getting
+the corresponding runtime listed as complible implemenations of a particular MicroProfile platform release. The required approval processes is:
 
 -   Approval by lazy consensus after a period of two weeks (14 days)
 
@@ -393,9 +379,7 @@ Certification requests that are reviewed and found to meet the
 requirements will be marked accepted by closing an issue with an
 `accepted` label. A pointer/link to the issue MUST then be emailed to
 mailto:tck@eclipse.org[tck@eclipse.org], as required by the
-https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License]. If use of the
-MicroProfile Platform Compatible logo or trademark is being requested (currently only
-applicable to platform or profile products), see the https://microprofile.io/legal/trademark_guidelines/[MicroProfile Trademark Guidelines].
+https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License]. 
 
 [#_rejected_certification_requests]
 #### Rejected Certification Requests
