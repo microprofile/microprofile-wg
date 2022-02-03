@@ -38,7 +38,7 @@ Artifacts:
 
 -   Both TCK binaries MUST contain the following
 
-    -   User guide outlining
+    -   A top-level README document outlining
 
         -   Software requirements
 
@@ -49,12 +49,6 @@ Artifacts:
         -   Where to file challenges
 
         -   TCK specific rules not covered in this process guide
-
-    -   Instructions describing how to run the compatible
-        implementation(s) that are being used to validate the TCK
-
-    -   A top-level README document pointing to each of the preceding
-        documents
 
 -   We recommend that the TCK documentation include
 
@@ -233,7 +227,7 @@ escalate the issue with the MicroProfile Specification Committee via email
 purely in terms of due process. If the appeal is accepted, the original
 TCK challenge issue will be reopened and a label of `appealed-challenge`
 added, along with a discussion of the appeal decision, and the
-`challenge-appeal` issue with be closed. If the appeal is rejected, the
+`challenge-appeal` issue will be closed. If the appeal is rejected, the
 `challenge-appeal` issue MUST be closed with a label of `invalid`.
 
 image:tckprocess.png[TCK Process]
@@ -265,9 +259,11 @@ request as defined in this section is required.
 [#_filing_a_certification_request]
 ### Filing a Certification Request
 
-Requests to be acknowledged as a certified implementation MUST be filed
+Requests to be acknowledged as a certified implementation for umbrella releases MUST be filed
 under the github repo https://github.com/eclipse/microprofile via the specification's issue tracker using the label
-`certification` and include the following information:
+`certification`. Alternatively, if a certified implementation wants to only certify a particular specification release, the request
+must be filed under the corresponding github repo such as https://github.com/eclipse/microprofile-fault-tolerance for certifying a particular release of MicroProfile Fault Tolerance. 
+The request must include the following information:
 
 -   Statement of Acceptance of the terms of the EFTL
 
@@ -294,7 +290,7 @@ under the github repo https://github.com/eclipse/microprofile via the specificat
 [#_additional_specification_certification_requirements]
 ### Additional Specification Certification Requirements
 
-Specification's may require additional items for a Certification
+Specifications may require additional items for a Certification
 Request as defined in their corresponding TCK Documentation under the
 section labeled \"Additional Certification Requirements\".
 
@@ -319,10 +315,7 @@ your test results summary. At a minimum a results summary MUST:
 
     -   All information in the above Certification Request
 
-    -   The Total number of tests run and passed. If you are running a
-        platform TCK, this means reporting the tests run for each
-        required TCK, which includes the platform TCK and some of the
-        individual TCKs that are not integrated with the platform TCK.
+    -   The Total number of tests run and passed. 
 
 An optional "Test List Page" showing all tests run may be linked from
 the Summary Page. The Summary Page URL is the URL that MUST be included
@@ -341,9 +334,10 @@ run a TCK against their implementation, but it is not required.
 ### Certification Resolution
 
 Approval that the TCK requirements have been met is a prerequisite for getting
-the corresponding runtime listed as complible implemenations of a particular MicroProfile platform release. The required approval processes is:
+the corresponding runtime listed as a complible implemenation of a particular MicroProfile platform release. 
+The required approval processes is:
 
--   Approval by lazy consensus after a period of two weeks (14 days)
+-   Approval by lazy consensus after a period of two weeks (14 days) or
 
 -   Approval by a majority vote of the specification contributors as soon as
     it happens.
@@ -378,7 +372,7 @@ take place.
 Certification requests that are reviewed and found to meet the
 requirements will be marked accepted by closing an issue with an
 `accepted` label. A pointer/link to the issue MUST then be emailed to
-mailto:tck@eclipse.org[tck@eclipse.org], as required by the
+mailto:tck@eclipse.org[tck@eclipse.org] by the certification requestor, as required by the
 https://www.eclipse.org/legal/tck.php[Eclipse Foundation Technology Compatibility Kit License]. 
 
 [#_rejected_certification_requests]
