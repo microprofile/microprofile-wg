@@ -334,7 +334,7 @@ run a TCK against their implementation, but it is not required.
 ### Certification Resolution
 
 Approval that the TCK requirements have been met is a prerequisite for getting
-the corresponding runtime listed as a complible implemenation of a particular MicroProfile platform release. 
+the corresponding runtime listed as a complible implementation of a particular MicroProfile platform release. 
 The required approval processes is:
 
 -   Approval by lazy consensus after a period of two weeks (14 days) or
