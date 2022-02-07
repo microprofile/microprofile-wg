@@ -339,11 +339,10 @@ The required approval processes is:
 
 -   Approval by lazy consensus after a period of two weeks (14 days) or
 
--   Approval by a majority vote of the specification contributors as soon as
-    it happens.
+-   Approval by at least two of the MicroProfile committers as soon as
+it happens.
 
-    -   The sum of the +1/-1 votes must be greater than 50% of the
-        specification committers.
+    -   The committers must not work for the same company where the certification requester is associated with.
 
 All specification contributors are encouraged to review the request
 and associated supporting materials. Reviewers of a certification
