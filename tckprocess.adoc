@@ -30,7 +30,7 @@ Artifacts:
     this TCK.
 
 -   Specification contributors MUST produce a final candidate binary that includes the
-    https://www.eclipse.org/legal/tck.php[EFTL] license. The MicroProfile
+    (link:https://www.eclipse.org/legal/tck.php[EFTL]) license. The MicroProfile
     Specification Committee will sign and promote the Specification's TCK binary
     for distribution via Eclipse infrastructure on final approval. This
     is the TCK binary usable for self-certification when one desires to
@@ -40,35 +40,35 @@ Artifacts:
 
     -   A top-level README document outlining
 
-        -   Software requirements
+        *   Software requirements
 
-        -   Installation and configuration
+        *   Installation and configuration
 
-        -   How to run the tests
+        *   How to run the tests
 
-        -   Where to file challenges
+        *   Where to file challenges
 
-        -   TCK specific rules not covered in this process guide
+        *   TCK specific rules not covered in this process guide
 
 -   We recommend that the TCK documentation include
 
-    -   URLs for the issue trackers to file certification requests, bug
+    *   URLs for the issue trackers to file certification requests, bug
         reports, etc.
 
-    -   A statement that the anchor:_certification_of_compatibility[Certification of
+    *   A statement that the anchor:_certification_of_compatibility[Certification of
         Compatibility] process must be
         followed before a claim of compatibility can be made.
 
 -   TCK binaries MAY contain
 
-    -   Test coverage document
+    *   Test coverage document
 
-    -   Test assertion document
+    *   Test assertion document
 
 -   Release available via a release on specification's GitHub project releases page(or
     equivalent)
 
-    -   Final releases under the EFTL MUST be hosted on
+    *   Final releases under the EFTL MUST be hosted on
         http://download.eclipse.org[download.eclipse.org]
 
 [#_ratifying_a_final_tck]
@@ -251,7 +251,7 @@ tracker.
 ## Certification of Compatibility
 
 MicroProfile is a self-certification ecosystem. If you wish to have your
-implementation listed on the official https://microprofile.io[microprofile.io]
+implementation listed on the official (link:https://microprofile.io[microprofile.io])
 implementations page for the given specification, a certification
 request as defined in this section is required.
 
@@ -260,9 +260,9 @@ request as defined in this section is required.
 ### Filing a Certification Request
 
 Requests to be acknowledged as a certified implementation for umbrella releases MUST be filed
-under the github repo https://github.com/eclipse/microprofile via the specification's issue tracker using the label
+under the github repo (link:https://github.com/eclipse/microprofile[microprofile]) via the specification's issue tracker using the label
 `certification`. Alternatively, if a certified implementation wants to only certify a particular specification release, the request
-must be filed under the corresponding github repo such as https://github.com/eclipse/microprofile-fault-tolerance for certifying a particular release of MicroProfile Fault Tolerance. 
+must be filed under the corresponding github repo such as (link:https://github.com/eclipse/microprofile-fault-tolerance[Fault Tolerance]) for certifying a particular release of MicroProfile Fault Tolerance. 
 The request must include the following information:
 
 -   Statement of Acceptance of the terms of the EFTL
@@ -313,9 +313,9 @@ your test results summary. At a minimum a results summary MUST:
 
 -   Include a Summary Page containing:
 
-    -   All information in the above Certification Request
+    *   All information in the above Certification Request
 
-    -   The Total number of tests run and passed. 
+    *   The Total number of tests run and passed. 
 
 An optional "Test List Page" showing all tests run may be linked from
 the Summary Page. The Summary Page URL is the URL that MUST be included
