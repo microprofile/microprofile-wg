@@ -40,35 +40,35 @@ Artifacts:
 
     -   A top-level README document outlining
 
-        --   Software requirements
+        *   Software requirements
 
-        --   Installation and configuration
+        *   Installation and configuration
 
-        --   How to run the tests
+        *   How to run the tests
 
-        --   Where to file challenges
+        *   Where to file challenges
 
-        --   TCK specific rules not covered in this process guide
+        *   TCK specific rules not covered in this process guide
 
 -   We recommend that the TCK documentation include
 
-    --   URLs for the issue trackers to file certification requests, bug
+    *   URLs for the issue trackers to file certification requests, bug
         reports, etc.
 
-    --   A statement that the anchor:_certification_of_compatibility[Certification of
+    *   A statement that the anchor:_certification_of_compatibility[Certification of
         Compatibility] process must be
         followed before a claim of compatibility can be made.
 
 -   TCK binaries MAY contain
 
-    --   Test coverage document
+    *   Test coverage document
 
-    --   Test assertion document
+    *   Test assertion document
 
 -   Release available via a release on specification's GitHub project releases page(or
     equivalent)
 
-    --   Final releases under the EFTL MUST be hosted on
+    *   Final releases under the EFTL MUST be hosted on
         http://download.eclipse.org[download.eclipse.org]
 
 [#_ratifying_a_final_tck]
@@ -313,9 +313,9 @@ your test results summary. At a minimum a results summary MUST:
 
 -   Include a Summary Page containing:
 
-    --   All information in the above Certification Request
+    *   All information in the above Certification Request
 
-    --   The Total number of tests run and passed. 
+    *   The Total number of tests run and passed. 
 
 An optional "Test List Page" showing all tests run may be linked from
 the Summary Page. The Summary Page URL is the URL that MUST be included
