@@ -182,7 +182,7 @@ using the label `challenge` and include the following information:
 -   Any supporting material; debug logs, test output, test logs, run
     scripts, etc.
 
-#_challenge_resolution
+[#_challenge_resolution]
 ### Challenge Resolution
 
 Challenges can be resolved after a consensus of the specification
