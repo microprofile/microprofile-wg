@@ -36,9 +36,7 @@ Artifacts:
     is the TCK binary usable for self-certification when one desires to
     make a claim of compatibility.
 
--   Both TCK binaries MUST contain the following
-
-    -   A top-level README document outlining
+-   The TCK binaries MUST contain a top-level README document outlining
 
         *   Software requirements
 
