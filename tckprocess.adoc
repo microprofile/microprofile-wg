@@ -53,7 +53,7 @@ Artifacts:
     *   URLs for the issue trackers to file certification requests, bug
         reports, etc.
 
-    *   A statement that the anchor:_certification_of_compatibility[Certification of
+    *   A statement that the <<_certification_of_compatibility>>[Certification of
         Compatibility] process must be
         followed before a claim of compatibility can be made.
 
@@ -290,7 +290,7 @@ The request must include the following information:
 
 Specifications may require additional items for a Certification
 Request as defined in their corresponding TCK Documentation under the
-section labeled \"Additional Certification Requirements\".
+section labeled "Additional Certification Requirements".
 
 Examples of such additional requirements may include:
 
