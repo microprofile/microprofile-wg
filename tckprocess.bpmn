@@ -99,7 +99,7 @@
       <bpmn:outgoing>Flow_0dvvwgv</bpmn:outgoing>
     </bpmn:task>
     <bpmn:sequenceFlow id="Flow_199jqrp" sourceRef="Gateway_02rnhu6" targetRef="Activity_1poyg1v" />
-    <bpmn:task id="Activity_1uxlvnx" name="Close appel issue with &#39;accepted&#39; label">
+    <bpmn:task id="Activity_1uxlvnx" name="Close appeal issue with &#39;accepted&#39; label">
       <bpmn:incoming>Flow_0dvvwgv</bpmn:incoming>
       <bpmn:outgoing>Flow_0kb9295</bpmn:outgoing>
     </bpmn:task>
