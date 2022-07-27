@@ -1,0 +1,24 @@
+---
+title: "MicroProfile JWT Auth 2.1 (under development)"
+date: 2022-07-28
+summary: "Release for MicroProfile 6.0"
+---
+MicroProfile JWT Auth outlines how JWT tokens issued by OpenId Connect and other trusted providers can be verified and their claims used for Role Based Access Control (RBAC) of microservice endpoints.
+
+The goal of this release is to provide features requested by the community, such as:
+
+=== API/SPI Changes
+
+No API/SPI changes have been made in this release
+
+=== Other Changes
+
+* Add `mp.jwt.verify.token.age` property to support restricting a token age (https://github.com/eclipse/microprofile-jwt-auth/pull/284[284])
+* Add `mp.jwt.decrypt.key.algorithm` property to decrypt tokens encrypted with an `RSA-OAEP-256` algorithm, in addition to the default `RSA-OAEP` algorithm (https://github.com/eclipse/microprofile-jwt-auth/pull/292[292])
+* Add `mp.jwt.verify.clock.skew` property to configure the clock skew in seconds used during the token expiry and age verification (https://github.com/eclipse/microprofile-jwt-auth/pull/284[284], https://github.com/eclipse/microprofile-jwt-auth/pull/286[286])
+
+The release won't contain any backwards incompatible changes.
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/jwt-2.1[MicroProfile JWT Auth 2.1 Release Record]
+
+# Ballots
