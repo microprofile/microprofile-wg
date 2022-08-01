@@ -1,0 +1,55 @@
+---
+title: "MicroProfile Open API 3.1 (under development)"
+date: 2022-06-28
+summary: "Release for MicroProfile 6.0"
+---
+MicroProfile Open API aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3 documents from their JAX-RS applications.
+
+The goal of this release is to provide features requested by the community, such as:
+
+=== API/SPI Changes
+
+* Add `extensions` attribute to most annotations (https://github.com/eclipse/microprofile-open-api/issues/387[387])
+* Improvements to the definition of security requirements (https://github.com/eclipse/microprofile-open-api/issues/483[483], https://github.com/eclipse/microprofile-open-api/issues/468[468])
+** Define behavior of `@SecurityRequirementsSet` and make it repeatable
+** Clarify that a individual `@SecurityRequirement` annotation applied to a class or method is equivalent to a `@SecurityRequirementsSet` annotation containing that `@SecurityRequirement` annotation
+** Add `securitySets` attribute to `@OpenAPIDefinition` and `@CallbackOperation`
+* Add `additionalProperties` attribute to `@Schema` (https://github.com/eclipse/microprofile-open-api/issues/423[423])
+* Allow `@APIResponse` to be applied to a class, indicating that every resource method on that class has that response (https://github.com/eclipse/microprofile-open-api/issues/417[417])
+
+=== Other Changes
+
+* Add processing of some Jakarta Bean Validation annotations (https://github.com/eclipse/microprofile-open-api/issues/482[482])
+* Define the precedence of the `mp.openapi.scan.*` config properties (https://github.com/eclipse/microprofile-open-api/issues/422[422])
+* Clarify that the `name` attribute of `@Extension` must include the `x-` prefix (https://github.com/eclipse/microprofile-open-api/issues/339[339])
+* Only require that the `/openapi` endpoint is made available if there is documentation to show (https://github.com/eclipse/microprofile-open-api/issues/413[413])
+* Recommend a standard endpoint for implementations which provide a user interface (https://github.com/eclipse/microprofile-open-api/issues/334[334])
+* Recommend that implementations provide a way to serve CORS headers on the `/openapi` endpoint (https://github.com/eclipse/microprofile-open-api/issues/416[416])
+
+The release won't contain any backwards incompatible changes.
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/openapi-3.1[MicroProfile Open API 3.1 Release Record]
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on 2022-07-26 with the following results.
+
+.Plan Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote 
+|----------------------------------------|-----------------------------|------
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 | +1   
+| Emily Jiang, Nathan Rauh               | IBM                         | +1       
+| Ed Bratt, Dmitry Kornilov              | Oracle                      | No vote       
+| John Clingan, Roberto Cortez           | Red Hat                     | +1     
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   | +1    
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group| +1    
+| Jan Westerkamp                         | iJUG                        | +1    
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | +1    
+| Total                                  |                             |  7
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01497.html[microprofile-wg mailing list]
+
