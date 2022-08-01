@@ -22,7 +22,7 @@ The following funcationalities are provided:
 
 == Plan Review
 
-The Specification Committee Ballot concluded successfully on 2022-07-26 with the following results.
+The Specification Committee Ballot concluded successfully on 2022-xx-xx with the following results.
 
 .Plan Review Ballot Result
 |=============================================================================
