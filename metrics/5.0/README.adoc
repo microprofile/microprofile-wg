@@ -8,7 +8,7 @@ MicroProfile Metrics aims to provide a set of Java interfaces and programming mo
 The goal of this release is to provide features requested by the community and to make it easy to implement the API using an implementation of the vendor's choosing.
 
 === Backward incompatible API changes
-* removed things that don't fit with concepts in Micrometer or other metrics libraries
+* Removed things that don't fit with concepts in Micrometer or other metrics libraries - this will help vendors modernize their metrics implementations and reduce complexity for users.
 ** removed things that relate to ConcurrentGauge, Meter, SimpleTimer
 *** removed ConcurrentGauge / ConcurrentGauge (annotation)
 *** removed Meter / Metered (annotation)
@@ -23,12 +23,12 @@ The goal of this release is to provide features requested by the community and t
 ** removed methods that allow registering a custom Metric
 *** updated MetricRegistry to eliminate methods that allow use of custom metric types
 ** removed methods to get maximum, minimum and stddev from Snapshot (https://github.com/eclipse/microprofile-metrics/issues/695[695])
-* prepared for intended future ability to configure percentile limits for Timers and Histograms (https://github.com/eclipse/microprofile-metrics/issues/696[696])
+* Prepared for intended future ability to configure percentile limits for Timers and Histograms - this will enable us to enhance Timer and Histogram configurability without requiring more backward incompatible changes. (https://github.com/eclipse/microprofile-metrics/issues/696[696])
 ** removed fixed percentile retrieval methods from Snapshot (https://github.com/eclipse/microprofile-metrics/issues/695[695])
-* modified Gauges to only accept numeric values (https://github.com/eclipse/microprofile-metrics/issues/694[694])
+* Modified Gauges to only accept numeric values - this change aligns with the approach taken by commonly used metrics libraries (https://github.com/eclipse/microprofile-metrics/issues/694[694])
  
 === Functional changes
-* added concept of custom scopes for metrics (https://github.com/eclipse/microprofile-metrics/issues/677[677])
+* Added concept of custom scopes for metrics. This capability was requested by the community (https://github.com/eclipse/microprofile-metrics/issues/677[677])
 ** added tagging of all metrics with mp_scope=value
 ** changed /metrics/base to /metrics?scope=base (https://github.com/eclipse/microprofile-metrics/issues/692[692])
 ** changed /metrics/vendor to /metrics?scope=vendor (https://github.com/eclipse/microprofile-metrics/issues/692[692])
@@ -37,7 +37,7 @@ The goal of this release is to provide features requested by the community and t
 ** added ability for applications to add metrics to a custom scope (https://github.com/eclipse/microprofile-metrics/issues/677[677])
 ** added ability to use custom scope names with @RegistryScope annotation (https://github.com/eclipse/microprofile-metrics/issues/677[677])
 ** replaced @RegistryType with @RegistryScope (https://github.com/eclipse/microprofile-metrics/issues/677[677])
-* other changes
+* Other changes
 ** removed requirement to convert metrics to base units for Prometheus output
 ** changed from prepending scope to the metric name to putting the scope in mp_scope tag
 ** clarified that implementations of /metrics endpoint must support Prometheus text-based exposition format, and may also support OpenMetrics exposition format. (https://github.com/eclipse/microprofile-metrics/issues/678[678])
