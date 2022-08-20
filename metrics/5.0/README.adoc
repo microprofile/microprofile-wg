@@ -66,7 +66,7 @@ The Specification Committee Ballot concluded successfully on 2022-xx-xx with the
 | John Clingan, Roberto Cortez           | Red Hat                     | 
 | David Blevins, Jean-Louis Monteiro     | Tomitribe                   | 
 | Chandra Guntur, Michael Redlich        | Garden State Java User Group| 
-| Jan Westerkamp                         | iJUG                        | 
+| Jan Westerkamp, Heiko W. Rupp          | iJUG                        | 
 | Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | 
 | Total                                  |                             | 
 |=============================================================================
