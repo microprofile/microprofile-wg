@@ -68,6 +68,7 @@ The Specification Committee Ballot concluded successfully on 2022-xx-xx with the
 | Chandra Guntur, Michael Redlich        | Garden State Java User Group| 
 | Jan Westerkamp, Heiko W. Rupp          | iJUG                        | 
 | Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | 
+| Reza Rahman, Ed Burns                  | Microsoft                   |
 | Total                                  |                             | 
 |=============================================================================
 
