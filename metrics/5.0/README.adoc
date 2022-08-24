@@ -69,7 +69,7 @@ The Specification Committee Ballot concluded successfully on 2022-08-24 with the
 | Jan Westerkamp, Heiko W. Rupp          | iJUG                        |  +1
 | Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  +1
 | Reza Rahman, Edward Burns              | Microsoft                   |  +1
-| Total                                  |                             |  
+| Total                                  |                             |   8
 |=============================================================================
 
 The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01544.html[microprofile-wg mailing list]
