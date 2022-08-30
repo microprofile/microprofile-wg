@@ -1,0 +1,47 @@
+---
+title: "MicroProfile Reactive Streams Operators 3.0 (under development)"
+date: 2022-07-28
+summary: "Release for MicroProfile Reactive Streams Operators 3.0"
+---
+MicroProfile Reactive Streams Operators defines an API for manipulating Reactive Streams, providing operators such as map, filter, flatMap, 
+in a similar fashion to the java.util.stream API introduced in Java 8. 
+It also provides an SPI for implementing and providing custom Reactive Streams engines, allowing application developers to use whichever engine they see fit.
+The goal of this release is to align with Jakarta EE 9.1:
+
+=== API/SPI Changes
+
+There are no functional changes introduced in this release, except updating the dependencies from javax to jakarta.
+
+=== Other Changes
+
+* TCK bug fix: loading ReactiveStreamsEngine and ReactiveStreamsFactory should also work running with a security manager (link:https://github.com/eclipse/microprofile-reactive-streams-operators/pull/170[#170])
+
+=== Incompatible Changes
+This release aligns with Jakarta EE 9.1, so it won't work with earlier versions of Jakarta or Java EE.
+
+
+https://projects.eclipse.org/projects/technology.microprofile/releases/reactive-streams-operators-3.0[MicroProfile Reactive Streams Operators 3.0 Release Record]
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on 2022-xx-xx with the following results.
+
+.Plan Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote 
+|----------------------------------------|-----------------------------|------
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |    
+| Emily Jiang, Nathan Rauh               | IBM                         |        
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |        
+| John Clingan, Roberto Cortez           | Red Hat                     |      
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |     
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|     
+| Jan Westerkamp                         | iJUG                        |     
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |    
+| Total                                  |                             |  
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxx.html[microprofile-wg mailing list]
+
