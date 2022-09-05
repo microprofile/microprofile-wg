@@ -13,31 +13,36 @@ The following funcationalities are provided:
 ** Automatic Instrumention: Jakarta RESTful Web Services (server and client), and MicroProfile REST Clients are automatically enlisted to participate in distributed tracing without code modification as specified in the Tracing API.
 ** Manual Instrumentation: explicit manual instrumentation can be added into a MicroProfile application using annotation or programmatic lookup.
 ** Agent Instrumentation: implementations are free to support the OpenTelemetry Agent Instrumentation.
-* OpenTelemetry Tracing is deliberately set off unless end users explicitly enable it via the configuration defined in this specification.
+** OpenTelemetry Tracing is deliberately disabled unless end users explicitly enable it via the configuration defined in this specification. This means end users will not get surprises by many tracing generated unless instructed.
 
 
 * https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-telemetry-1.0[MicroProfile Telemetry 1.0 Release Record]
 
 # Ballots
 
-== Plan Review
+== Creation Review
 
-The Specification Committee Ballot concluded successfully on 2022-xx-xx with the following results.
+The Specification Committee Ballot concluded successfully on 2022-02-14 with the following results.
 
-.Plan Review Ballot Result
+.Creation Review Ballot Result
 |=============================================================================
 | Representative                         | Representative for:         | Vote 
 |----------------------------------------|-----------------------------|------
-| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |    
-| Emily Jiang, Nathan Rauh               | IBM                         |        
-| Ed Bratt, Dmitry Kornilov              | Oracle                      |        
-| John Clingan, Roberto Cortez           | Red Hat                     |      
-| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |     
-| Chandra Guntur, Michael Redlich        | Garden State Java User Group|     
-| Jan Westerkamp                         | iJUG                        |     
-| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |     
-| Total                                  |                             |  
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  +1  
+| Emily Jiang, Nathan Rauh               | IBM                         |  +1      
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |  No Vote      
+| John Clingan, Roberto Cortez           | Red Hat                     |  No Vote    
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |  +1   
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  +1   
+| Jan Westerkamp                         | iJUG                        |  +1   
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  +1   
+| Total                                  |                             |   6
+|                                        |                             |
+| Non-binding Vote                       | Role                        | Vote
+| Bruno Baptista                         | MicroProfile Committer      |  +1
+| Edwin Derks                            | MicroProfile Committer      |  +1
+| Total                                  |                             |   2
 |=============================================================================
 
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxx.html[microprofile-wg mailing list]
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01407.html[microprofile-wg mailing list]
 
