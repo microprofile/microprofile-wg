@@ -26,22 +26,22 @@ https://projects.eclipse.org/projects/technology.microprofile/releases/reactive-
 
 == Plan Review
 
-The Specification Committee Ballot concluded successfully on 2022-xx-xx with the following results.
+The Specification Committee Ballot concluded successfully on 2022-08-09 with the following results.
 
 .Plan Review Ballot Result
 |=============================================================================
 | Representative                         | Representative for:         | Vote 
 |----------------------------------------|-----------------------------|------
-| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |    
-| Emily Jiang, Nathan Rauh               | IBM                         |        
-| Ed Bratt, Dmitry Kornilov              | Oracle                      |        
-| John Clingan, Roberto Cortez           | Red Hat                     |      
-| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |     
-| Chandra Guntur, Michael Redlich        | Garden State Java User Group|     
-| Jan Westerkamp                         | iJUG                        |     
-| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |    
-| Total                                  |                             |  
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  +1  
+| Emily Jiang, Nathan Rauh               | IBM                         |  +1       
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |  +1       
+| John Clingan, Roberto Cortez           | Red Hat                     |  +1     
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   | No Vote   
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  +1   
+| Jan Westerkamp, Heiko Rupp             | iJUG                        |  +1    
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  +1   
+| Total                                  |                             |  7
 |=============================================================================
 
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxx.html[microprofile-wg mailing list]
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01537.html[microprofile-wg mailing list]
 
