@@ -1,0 +1,48 @@
+---
+title: "MicroProfile Telemetry 1.0 (under development)"
+date: 2022-08-01
+summary: "Release for MicroProfile 6.0"
+---
+MicroProfile Telemetry is to adopt OpenTelemetry from CNCF to allow MicroProfile Applications benefit from OpenTelemetry and enable Jakarta RESTful Web Services automatically being traced if configured.
+
+This is the first release of this specification. This release only focuses on the OpenTelemetry Tracing while the metrics and logging in OpenTelemetry is out of scope.
+The following funcationalities are provided:
+
+* OpenTelemetry APIs/SPIs are adopted by this specification and no additional API/SPIs are defined in this specification.
+* Pull in OpenTelemetry Tracing and integrate with CDI and Jakarta Restful Services. It provides three types of instrumentations:
+** Automatic Instrumention: Jakarta RESTful Web Services (server and client), and MicroProfile REST Clients are automatically enlisted to participate in distributed tracing without code modification as specified in the Tracing API.
+** Manual Instrumentation: explicit manual instrumentation can be added into a MicroProfile application using annotation or programmatic lookup.
+** Agent Instrumentation: implementations are free to support the OpenTelemetry Agent Instrumentation.
+** OpenTelemetry Tracing is deliberately disabled unless end users explicitly enable it via the configuration defined in this specification. This means end users will not get surprises by many tracing generated unless instructed.
+
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-telemetry-1.0[MicroProfile Telemetry 1.0 Release Record]
+
+# Ballots
+
+== Creation Review
+
+The Specification Committee Ballot concluded successfully on 2022-02-14 with the following results.
+
+.Creation Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote 
+|----------------------------------------|-----------------------------|------
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  +1  
+| Emily Jiang, Nathan Rauh               | IBM                         |  +1      
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |  No Vote      
+| John Clingan, Roberto Cortez           | Red Hat                     |  No Vote    
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |  +1   
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  +1   
+| Jan Westerkamp                         | iJUG                        |  +1   
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  +1   
+| Total                                  |                             |   6
+|                                        |                             |
+| Non-binding Vote                       | Role                        | Vote
+| Bruno Baptista                         | MicroProfile Committer      |  +1
+| Edwin Derks                            | MicroProfile Committer      |  +1
+| Total                                  |                             |   2
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01407.html[microprofile-wg mailing list]
+
