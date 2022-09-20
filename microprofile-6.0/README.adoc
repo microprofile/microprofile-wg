@@ -1,0 +1,45 @@
+---
+title: "MicroProfile 6.0 (under development)"
+date: 2022-09-20
+summary: "Release of MicroProfile 6.0"
+---
+
+The goal of this release is to align with Jakarta EE 10 Core Profile. The specifications in MicroProfile 6.0 include:
+
+    ** Jakarta EE 10 Core Profile
+    ** Config 3.0.2
+    ** Fault Tolerance 4.0.1
+    ** Health 4.0.1
+    ** JWT RBAC 2.1 (minor release)
+    ** Metrics 5.0 (major release)
+    ** Open API 3.1 (minor release)
+    ** Rest Client 3.0.1
+    ** Telemetry 1.0 (new)
+
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/6.0
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on 2022-xx-xx with the following results.
+
+.Plan Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote 
+|----------------------------------------|-----------------------------|------
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |    
+| Emily Jiang, Nathan Rauh               | IBM                         |        
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |        
+| John Clingan, Roberto Cortez           | Red Hat                     |      
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |     
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|     
+| Jan Westerkamp, Heiko Rupp             | iJUG                        |     
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | 
+| Reza Rahman, Ed Burns                  | Microsoft                   |     
+| Total                                  |                             |  
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxx.html[microprofile-wg mailing list]
+
