@@ -4,17 +4,31 @@ date: 2022-09-20
 summary: "Release of MicroProfile 6.0"
 ---
 
-The goal of this release is to align with Jakarta EE 10 Core Profile. The specifications in MicroProfile 6.0 include:
+MicroProfile follows a train model for its Platform releases. Typically, three Platform releases are planned for each year in February, June, and October. MicroProfile releases components that are ready and have been approved for inclusion will be part of the Platform release. MicroProfile 6.0 adds support for Jakarta EE 10 Core Profile, which has required a modified MicroProfile release plan for 2022. MicroProfile 6.0 is the sole release for 2022. The specifications in MicroProfile 6.0 include:
 
-    ** Jakarta EE 10 Core Profile
-    ** Config 3.0.2
-    ** Fault Tolerance 4.0.1
-    ** Health 4.0.1
-    ** JWT RBAC 2.1 (minor release)
-    ** Metrics 5.0 (major release)
-    ** Open API 3.1 (minor release)
-    ** Rest Client 3.0.1
-    ** Telemetry 1.0 (new)
+* Jakarta EE 10 Core Profile*
+* Config 3.0.2
+* Fault Tolerance 4.0.1
+* Health 4.0.1
+* JWT RBAC 2.1*
+* Metrics 5.0*
+* Open API 3.1*
+* Rest Client 3.0.1
+* Telemetry 1.0*
+pass:[*] New or Updated
+
+Config, Fault Tolerance, Health and Rest Client will perform a service release to address CVE-2021-26291.
+
+Jakarta EE 10 Core Profile includes the following specifications, which must be implemented by MicroProfile 6.0 implementations:
+
+Jakarta Annotations 2.1
+Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
+Jakarta Dependency Injection 2.0
+Jakarta Interceptors 2.1
+Jakarta JSON Binding 3.0
+Jakarta JSON Processing 2.1
+Jakarta RESTful Web Services 3.1
+** Full CDI support is not required. CDI SE support is not required.
 
 Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/6.0[here].
 
