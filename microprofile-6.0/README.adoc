@@ -15,6 +15,7 @@ MicroProfile follows a train model for its Platform releases. Typically, three P
 * Open API 3.1*
 * Rest Client 3.0.1
 * Telemetry 1.0*
+
 pass:[*] New or Updated
 
 Config, Fault Tolerance, Health and Rest Client will perform a service release to address CVE-2021-26291.
