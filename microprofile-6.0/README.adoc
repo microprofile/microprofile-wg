@@ -16,8 +16,7 @@ The goal of this release is to align with Jakarta EE 10 Core Profile. The specif
     ** Rest Client 3.0.1
     ** Telemetry 1.0 (new)
 
-
-* https://projects.eclipse.org/projects/technology.microprofile/releases/6.0
+Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/6.0[here].
 
 # Ballots
 
