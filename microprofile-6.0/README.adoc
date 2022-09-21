@@ -22,13 +22,13 @@ Config, Fault Tolerance, Health and Rest Client will perform a service release t
 
 Jakarta EE 10 Core Profile includes the following specifications, which must be implemented by MicroProfile 6.0 implementations:
 
-Jakarta Annotations 2.1
-Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
-Jakarta Dependency Injection 2.0
-Jakarta Interceptors 2.1
-Jakarta JSON Binding 3.0
-Jakarta JSON Processing 2.1
-Jakarta RESTful Web Services 3.1
+* Jakarta Annotations 2.1
+* Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
+* Jakarta Dependency Injection 2.0
+* Jakarta Interceptors 2.1
+* Jakarta JSON Binding 3.0
+* Jakarta JSON Processing 2.1
+* Jakarta RESTful Web Services 3.1
 ** Full CDI support is not required. CDI SE support is not required.
 
 Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/6.0[here].
