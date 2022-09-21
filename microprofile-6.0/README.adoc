@@ -29,7 +29,8 @@ Jakarta EE 10 Core Profile includes the following specifications, which must be 
 * Jakarta JSON Binding 3.0
 * Jakarta JSON Processing 2.1
 * Jakarta RESTful Web Services 3.1
-** Full CDI support is not required. CDI SE support is not required.
+
+pass:[**] Full CDI support is not required. CDI SE support is not required.
 
 Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/6.0[here].
 
