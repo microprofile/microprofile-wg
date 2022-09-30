@@ -57,5 +57,5 @@ The Specification Committee Ballot concluded successfully on 2022-09-28 with the
 | Total                                  |                             |  8
 |=============================================================================
 
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxx.html[microprofile-wg mailing list]
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01605.html[microprofile-wg mailing list]
 
