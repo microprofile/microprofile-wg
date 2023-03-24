@@ -1,0 +1,61 @@
+---
+title: "MicroProfile 6.0 (under development)"
+date: 2022-09-20
+summary: "Release of MicroProfile 6.0"
+---
+
+MicroProfile follows a train model for its Platform releases. Typically, three Platform releases are planned for each year in February, June, and October. MicroProfile releases components that are ready and have been approved for inclusion will be part of the Platform release. MicroProfile 6.0 adds support for Jakarta EE 10 Core Profile, which has required a modified MicroProfile release plan for 2022. MicroProfile 6.0 is the sole release for 2022. The specifications in MicroProfile 6.0 include:
+
+* Jakarta EE 10 Core Profile*
+* Config 3.0.2
+* Fault Tolerance 4.0.1
+* Health 4.0.1
+* JWT RBAC 2.1*
+* Metrics 5.0*
+* OpenAPI 3.1*
+* Rest Client 3.0.1
+* Telemetry 1.0*
+
+pass:[*] New or Updated
+
+Config, Fault Tolerance, Health and Rest Client will perform a service release to address CVE-2021-26291.
+
+Jakarta EE 10 Core Profile includes the following specifications, which must be implemented by MicroProfile 6.0 implementations:
+
+* Jakarta Annotations 2.1
+* Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
+* Jakarta Dependency Injection 2.0
+* Jakarta Interceptors 2.1
+* Jakarta JSON Binding 3.0
+* Jakarta JSON Processing 2.1
+* Jakarta RESTful Web Services 3.1
+
+pass:[**] Full CDI support is not required. CDI SE support is not required.
+
+Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/6.0[here].
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on 2022-09-28 with the following results.
+
+.Plan Review Ballot Result
+|===
+| Representatives                        | Representing                | Vote 
+
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 | +1 
+| Emily Jiang, Nathan Rauh               | IBM                         | +1       
+| Ed Bratt, Dmitry Kornilov              | Oracle                      | +1     
+| John Clingan, Roberto Cortez           | Red Hat                     | +1     
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   | +1    
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group| +1    
+| Jan Westerkamp, Heiko Rupp             | iJUG                        | No vote    
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | +1
+| Reza Rahman, Ed Burns                  | Microsoft                   | +1
+
+| Total                                  |                             |  8
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01605.html[microprofile-wg mailing list]
+
