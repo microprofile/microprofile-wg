@@ -1,0 +1,52 @@
+---
+title: "MicroProfile Metrics 5.0 (under development)"
+date: 2023-03-28
+summary: 
+---
+MicroProfile Metrics aims to provide a set of Java interfaces and programming models which allow Java developers to add metrics instrumentation to their applications. MicroProfile Metrics also aims to provide convenient ways for operations teams to gather metrics data from compatible implementations.
+
+The goal of this release is to add configurability to the existing metrics types to give more flexibility to operations teams using MicroProfile Metrics in different situations.
+
+=== Functional changes
+
+There is currently no standard way to enable/disable specific metrics.
+
+* make it easy to enable/disable specific metrics through config (https://github.com/eclipse/microprofile-metrics/issues/686[686])
+
+There is currently no way to get a lightweight timer (all timers currently have quantiles in their Prometheus output, which requires data and processing at runtime). Adding ability to enable/disable quantiles is something we wanted for MicroProfile Metrics 5.0, but didn't have time to include.
+
+* add ability to enable/disable quantiles for Timers/Histograms (https://github.com/eclipse/microprofile-metrics/issues/673[673])
+* add ability to set quantile values for Timers/Histograms (https://github.com/eclipse/microprofile-metrics/issues/675[675])
+
+Users have asked for ability to have distribution buckets for timers for service level objective tracking.
+
+* add ability to enable/disable distribution buckets for Timers/Histograms (https://github.com/eclipse/microprofile-metrics/issues/587[587])(https://github.com/eclipse/microprofile-metrics/issues/674[674])(https://github.com/eclipse/microprofile-metrics/issues/691[691])
+* add ability to set distribution bucket ranges for Timers/Histograms (https://github.com/eclipse/microprofile-metrics/issues/676[676])
+
+Improvement to API
+
+* make @RegistryScope be a qualifier (https://github.com/eclipse/microprofile-metrics/issues/749[749])
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on XXX with the following results.
+
+.Plan Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote 
+|----------------------------------------|-----------------------------|------
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  
+| Emily Jiang, Nathan Rauh               | IBM                         |  
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |  
+| John Clingan, Roberto Cortez           | Red Hat                     |  
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |  
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  
+| Jan Westerkamp, Heiko W. Rupp          | iJUG                        |  
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  
+| Reza Rahman, Edward Burns              | Microsoft                   |  
+| Total                                  |                             |  
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/xxx.html[microprofile-wg mailing list]
