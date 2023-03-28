@@ -45,7 +45,7 @@ The Specification Committee Ballot concluded successfully on XXX with the follow
 | Chandra Guntur, Michael Redlich        | Garden State Java User Group|  
 | Jan Westerkamp, Heiko W. Rupp          | iJUG                        |  
 | Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  
-| Luqman Saaed, Jadon Ortlepp            | Payara                      |  
+| Alfonso Altamirano, Luís Neto          | Payara                      |  
 | Mingyue Huang, Bruce Liu               | Primeton                    |  
 | Reza Rahman, Edward Burns              | Microsoft                   |  
 | Total                                  |                             |  
