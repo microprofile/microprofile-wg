@@ -27,6 +27,9 @@ Improvement to API
 
 * make @RegistryScope be a qualifier (https://github.com/eclipse/microprofile-metrics/issues/749[749])
 
+
+https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-metrics-5.1[MicroProfile Metrics 5.1 Release Record]
+
 # Ballots
 
 == Plan Review
