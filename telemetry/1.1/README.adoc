@@ -1,0 +1,48 @@
+---
+title: "MicroProfile Telemetry 1.1 (under development)"
+date: 2023-05-15
+summary: "Release for MicroProfile 7.0"
+---
+MicroProfile Telemetry is to adopt OpenTelemetry from CNCF to allow MicroProfile Applications benefit from OpenTelemetry and enable Jakarta RESTful Web Services automatically being traced if configured.
+
+This is a minor release of this specification. This release only focuses on the OpenTelemetry Tracing while the metrics and logging in OpenTelemetry is out of scope.
+The following updates are provided:
+
+* Adopt the latest release of OpenTelemetry 
+* Update plugin dependencies to pull in the fixes for any known CVEs
+* Add more TCKs
+
+The proposed issues to be addressed in this release can be found https://github.com/eclipse/microprofile-telemetry/milestone/1[here].
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-telemetry-1.1[MicroProfile Telemetry 1.1 Release Record]
+
+# Ballots
+
+== Creation Review
+
+The Specification Committee Ballot concluded x on 2023-xx-xx with the following results.
+
+.Creation Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote 
+|----------------------------------------|-----------------------------|------
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  
+| Emily Jiang, Nathan Rauh               | IBM                         |  
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |  
+| John Clingan, Roberto Cortez           | Red Hat                     |  
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |  
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  
+| Jan Westerkamp, Heiko W. Rupp          | iJUG                        |  
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  
+| Alfonso Altamirano, Luís Neto          | Payara                      |  
+| Mingyue Huang                          | Primeton                    |  
+| Reza Rahman, Edward Burns              | Microsoft                   |  
+|----------------------------------------|-----------------------------|------
+| Total                                  |                             |  
+|----------------------------------------|-----------------------------|------
+| Non-binding Vote                       | Role                        | Vote
+| Total                                  |                             |   
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01407.html[microprofile-wg mailing list]
+
