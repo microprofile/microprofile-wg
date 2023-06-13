@@ -7,7 +7,7 @@ summary: "MicroProfile 7.0 Release Plan"
 MicroProfile follows a train model for its Platform releases. Typically, three Platform releases are planned for each year in February, June, and October. MicroProfile releases components that are ready and have been approved for inclusion will be part of the Platform release. MicroProfile 6.0 adds support for Jakarta EE 10 Core Profile, which has required a modified MicroProfile release plan for 2022. MicroProfile 6.0 is the sole release for 2022. The specifications in MicroProfile 6.0 include:
 
 * Jakarta EE 10 Core Profile
-* Config 3.0.2*
+* Config 3.1*
 * Metrics 5.1*
 * Fault Tolerance 4.0.1
 * Health 4.0.1
