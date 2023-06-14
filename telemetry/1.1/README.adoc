@@ -1,7 +1,7 @@
 ---
 title: "MicroProfile Telemetry 1.1 (under development)"
 date: 2023-05-15
-summary: "Release for MicroProfile 7.0"
+summary: "Release for MicroProfile 6.1"
 ---
 MicroProfile Telemetry is to adopt OpenTelemetry from CNCF to allow MicroProfile Applications benefit from OpenTelemetry and enable Jakarta RESTful Web Services automatically being traced if configured.
 
@@ -20,29 +20,30 @@ The proposed issues to be addressed in this release can be found https://github.
 
 == Creation Review
 
-The Specification Committee Ballot concluded x on 2023-xx-xx with the following results.
+The Specification Committee Ballot concluded successfully on 2023-06-14 with the following results.
 
 .Creation Review Ballot Result
 |=============================================================================
 | Representative                         | Representative for:         | Vote 
 |----------------------------------------|-----------------------------|------
-| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  
-| Emily Jiang, Nathan Rauh               | IBM                         |  
-| Ed Bratt, Dmitry Kornilov              | Oracle                      |  
-| John Clingan, Roberto Cortez           | Red Hat                     |  
-| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |  
-| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  
-| Jan Westerkamp, Heiko W. Rupp          | iJUG                        |  
-| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  
-| Alfonso Altamirano, Luís Neto          | Payara                      |  
-| Mingyue Huang                          | Primeton                    |  
-| Reza Rahman, Edward Burns              | Microsoft                   |  
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  +1
+| Emily Jiang, Nathan Rauh               | IBM                         |  +1
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |  +1
+| John Clingan, Roberto Cortez           | Red Hat                     |  +1
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |  +1
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  +1
+| Jan Westerkamp, Heiko W. Rupp          | iJUG                        |  +1
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  +1
+| Alfonso Altamirano, Luís Neto          | Payara                      |  +1
+| Mingyue Huang                          | Primeton                    |  +1
+| Reza Rahman, Edward Burns              | Microsoft                   |  +1
 |----------------------------------------|-----------------------------|------
-| Total                                  |                             |  
+| Total                                  |                             |  11
 |----------------------------------------|-----------------------------|------
 | Non-binding Vote                       | Role                        | Vote
-| Total                                  |                             |   
+| Jonathan Gallimore                     |                             |  +1
+| Total                                  |                             |   1
 |=============================================================================
 
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg01407.html[microprofile-wg mailing list]
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg02015.html[microprofile-wg mailing list]
 
