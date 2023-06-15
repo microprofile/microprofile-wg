@@ -4,7 +4,7 @@ date: 2023-06-05
 summary: 
 ---
 MicroProfile Config aims to provide a set of Java interfaces and programming models which allow Java developers to configure their cloud native applications. 
-The goal of this release is to improve the TCKs so that they can work well with CDI Lite.
+This release includes:
 
 * Improve TCKs to enable they work well with CDI Lite
 * Some minor spec clarification
