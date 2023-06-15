@@ -1,7 +1,7 @@
 ---
 title: "MicroProfile Telemetry 1.1 (under development)"
 date: 2023-05-15
-summary: "Release for MicroProfile 6.1"
+summary: 
 ---
 MicroProfile Telemetry is to adopt OpenTelemetry from CNCF to allow MicroProfile Applications benefit from OpenTelemetry and enable Jakarta RESTful Web Services automatically being traced if configured.
 
