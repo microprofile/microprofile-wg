@@ -1,0 +1,44 @@
+---
+title: "MicroProfile Config 3.1 (under development)"
+date: 2023-06-05
+summary: 
+---
+MicroProfile Config aims to provide a set of Java interfaces and programming models which allow Java developers to configure their cloud native applications. 
+This release includes:
+
+* Improve TCKs to enable they work well with CDI Lite
+* Some minor spec clarification
+
+The issues to be included in this release are under https://github.com/eclipse/microprofile-config/milestone/11[here]
+
+https://projects.eclipse.org/projects/technology.microprofile/releases/config-3.1[MicroProfile Config 3.1 Release Record]
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on 2023-06-14 with the following results.
+
+.Plan Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote 
+|----------------------------------------|-----------------------------|------
+| Summers Pittman, Vincent Mayers        | Atlanta JUG                 |  +1
+| Emily Jiang, Nathan Rauh               | IBM                         |  +1
+| Ed Bratt, Dmitry Kornilov              | Oracle                      |  +1
+| John Clingan, Roberto Cortez           | Red Hat                     |  +1
+| David Blevins, Jean-Louis Monteiro     | Tomitribe                   |  +1
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group|  +1
+| Jan Westerkamp, Heiko W. Rupp          | iJUG                        |  -1
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     |  +1
+| Alfonso Altamirano, Luís Neto          | Payara                      |  +1
+| Mingyue Huang                          | Primeton                    |  +1
+| Reza Rahman, Edward Burns              | Microsoft                   |  +1
+| Total                                  |                             |  10
+|                                        |                             |
+| Non-binding Vote                       | Role                        | Vote
+| Jean-Louis Monteiro                    |                             |  +1
+| Total                                  |                             |   1
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg02016.html[microprofile-wg mailing list]
