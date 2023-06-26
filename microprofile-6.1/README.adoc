@@ -1,20 +1,19 @@
 ---
-title: "MicroProfile 7.0"
-date: 2023-03-24
-summary: "MicroProfile 7.0 Release Plan"
+title: "MicroProfile 6.1"
+date: 2023-06-26
+summary: "MicroProfile 6.1 Release Plan"
 ---
 
-MicroProfile follows a train model for its Platform releases. Typically, three Platform releases are planned for each year in February, June, and October. MicroProfile releases components that are ready and have been approved for inclusion will be part of the Platform release. MicroProfile 6.0 adds support for Jakarta EE 10 Core Profile, which has required a modified MicroProfile release plan for 2022. MicroProfile 6.0 is the sole release for 2022. The specifications in MicroProfile 6.0 include:
+MicroProfile follows a train model for its Platform releases. Typically, three Platform releases are planned for each year in February, June, and October. MicroProfile releases components that are ready and have been approved for inclusion will be part of the Platform release. The specifications in MicroProfile 6.1 include:
 
 * Jakarta EE 10 Core Profile
 * Config 3.1*
 * Metrics 5.1*
-* Fault Tolerance 4.0.1
-* Health 4.0.1
-* JWT RBAC 2.1*
-* Metrics 5.1*
+* Fault Tolerance 4.0
+* Health 4.0
+* JWT RBAC 2.1
 * OpenAPI 3.1
-* Rest Client 3.0.1*
+* Rest Client 3.0
 * Telemetry 1.1*
 
 pass:[*] - New or Updated
@@ -33,7 +32,7 @@ Jakarta EE 10 Core Profile includes the following specifications, which must be 
 
 pass:[**] Full CDI support is not required. CDI SE support is not required.
 
-Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/7.0[here] (link TBD).
+Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-6.1[here].
 
 # Ballots
 
@@ -44,8 +43,7 @@ The Specification Committee Ballot concluded successfully on TBD with the follow
 .Plan Review Ballot Result
 |===
 | Representatives                        | Representing                | Vote 
-
-| Summers Pittman, Vincent Mayers        | Atlanta JUG                 | 
+| Vincent Mayers                         | Atlanta JUG                 | 
 | Emily Jiang, Nathan Rauh               | IBM                         |       
 | Ed Bratt, Dmitry Kornilov              | Oracle                      |      
 | John Clingan, Roberto Cortez           | Red Hat                     |      
@@ -53,8 +51,8 @@ The Specification Committee Ballot concluded successfully on TBD with the follow
 | Chandra Guntur, Michael Redlich        | Garden State Java User Group|     
 | Jan Westerkamp, Heiko Rupp             | iJUG                        |     
 | Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | 
-| Luqman Saaed, Jadon Ortlepp            | Payara                      |
-| Mingyue Huang, Bruce Liu               | Primeton                    |
+| Alfonso Altamirano, Luís Neto          | Payara                      |
+| Mingyue Huang                          | Primeton                    |
 | Reza Rahman, Ed Burns                  | Microsoft                   | 
 | N/A                                    | Committer Representative    | 
 
