@@ -20,7 +20,7 @@ pass:[*] - New or Updated
 
 Potential CVE needs to be addressed
 
-Jakarta EE 10 Core Profile includes the following specifications, which must be implemented by MicroProfile 7.0 implementations:
+Jakarta EE 10 Core Profile includes the following specifications, which must be implemented by MicroProfile 6.1 implementations:
 
 * Jakarta Annotations 2.1
 * Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
