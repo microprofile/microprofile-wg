@@ -38,23 +38,26 @@ Release plan is https://projects.eclipse.org/projects/technology.microprofile/re
 
 == Plan Review
 
-The Specification Committee Ballot concluded successfully on TBD with the following results.
+The Specification Committee Ballot concluded successfully on 6th July 2023 with the following results.
 
 .Plan Review Ballot Result
 |===
 | Representatives                        | Representing                | Vote 
-| Vincent Mayers                         | Atlanta JUG                 | 
-| Emily Jiang, Nathan Rauh               | IBM                         |       
-| Ed Bratt, Dmitry Kornilov              | Oracle                      |      
-| John Clingan, Roberto Cortez           | Red Hat                     |      
-| David Blevins, Amelia Eiras.           | Tomitribe                   |     
-| Chandra Guntur, Michael Redlich        | Garden State Java User Group|     
-| Jan Westerkamp, Heiko Rupp             | iJUG                        |     
-| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | 
-| Alfonso Altamirano, Luís Neto          | Payara                      |
-| Mingyue Huang                          | Primeton                    |
-| Reza Rahman, Ed Burns                  | Microsoft                   | 
+| Vincent Mayers                         | Atlanta JUG                 | +1
+| Emily Jiang, Nathan Rauh               | IBM                         | +1     
+| Ed Bratt, Dmitry Kornilov              | Oracle                      | no vote     
+| John Clingan, Roberto Cortez           | Red Hat                     |  0    
+| David Blevins, Amelia Eiras.           | Tomitribe                   | +1    
+| Chandra Guntur, Michael Redlich        | Garden State Java User Group| +1   
+| Jan Westerkamp, Heiko Rupp             | iJUG                        | +1   
+| Kenji Kazumura, Takahiro Nagao         | Fujitsu                     | +1
+| Alfonso Altamirano, Luís Neto          | Payara                      | +1
+| Mingyue Huang                          | Primeton                    | +1
+| Reza Rahman, Ed Burns                  | Microsoft                   | +1
 | N/A                                    | Committer Representative    | 
 
-| Total                                  |                             |  11
+| Total                                  |                             |  9
+| Non-binding Vote                       | Role                        | Vote
+| Feng Wang                              | Asiainfo Anhui              |  +1
+| Total                                  |                             |   1
 |=============================================================================
