@@ -7,14 +7,18 @@ Jakarta Security plans to include a JWT authentication mechanism. MicroProfile h
 
 === Abstract
 
-The specification is to enable Jakarta Security building on MicroProfile JWT without forking it but providing seamless integrations with MicroProfile JWT. In order not to introduce circular dependencies, this specification is to be created with the following scopes:
+The specification enables mapping MicroProfile JWT tokens to Jakarta EE container APIs not included in the MicroProfile umbrella and provides a place where Jakarta EE specifications, such as Jakarta Security, can build requirements and seamless integrations with MicroProfile JWT.
+
+In order not to introduce circular dependencies, this specification is to be created with the following scopes:
 
 * Define the annotations to working with JWT authentication mechanisms such as how to configure the JWT claims. 
 
 * Spec language would be added to state: Format of the JWT must comply with MP spec. Validation and handling of the JWT must comply with MP spec. 
 
-* Move the optional section of MP JWT to the new bridge spec together with TCKs
+* Move the optional section of MP JWT to the new bridge spec together with TCKs. 
 
-More information can be found in MicroProfile sandbox https://github.com/eclipse/microprofile-sandbox/tree/master/proposals/jwt-bridge[jwt-bridge proposal].
+* This specification does not limit only to Jakarta security and it may also include other relevant technologies.
+
+More information can be found in MicroProfile sandbox https://github.com/eclipse/microprofile-sandbox/tree/main/proposals/jwt-bridge[jwt-bridge proposal].
 
 # Ballots
