@@ -55,9 +55,12 @@ The Specification Committee Ballot concluded successfully on 6th July 2023 with 
 | Mingyue Huang                          | Primeton                    | +1
 | Reza Rahman, Ed Burns                  | Microsoft                   | +1
 | N/A                                    | Committer Representative    | 
-
 | Total                                  |                             |  9
 | Non-binding Vote                       | Role                        | Vote
 | Feng Wang                              | Asiainfo Anhui              |  +1
 | Total                                  |                             |   1
 |=============================================================================
+
+== Release Review
+
+The Specification Committee Ballot concluded successfully on 2023-10-09. The detailed results can be found https://www.eclipse.org/lists/microprofile-wg/msg02242.html[here].

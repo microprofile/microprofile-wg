@@ -18,11 +18,11 @@ The proposed issues to be addressed in this release can be found https://github.
 
 # Ballots
 
-== Creation Review
+== Plan Review
 
 The Specification Committee Ballot concluded successfully on 2023-06-14 with the following results.
 
-.Creation Review Ballot Result
+.Plan Review Ballot Result
 |=============================================================================
 | Representative                         | Representative for:         | Vote 
 |----------------------------------------|-----------------------------|------
@@ -47,3 +47,6 @@ The Specification Committee Ballot concluded successfully on 2023-06-14 with the
 
 The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msg02015.html[microprofile-wg mailing list]
 
+== Release Review
+
+The Specification Committee Ballot concluded successfully on 2023-10-09. The detailed results can be found https://www.eclipse.org/lists/microprofile-wg/msg02240.html[here].
