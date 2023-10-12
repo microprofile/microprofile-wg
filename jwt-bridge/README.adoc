@@ -1,0 +1,36 @@
+---
+title: "MicroProfile JWT Bridge (under development)"
+date: 2023-07-13
+summary: "Creation Review"
+---
+Jakarta Security plans to include a JWT authentication mechanism. MicroProfile has specified JWT, and a few implementations are internally based on Jakarta Security. This specification is to bridge Jakarta Security with MicroProfile JWT and provide seamless integrations with MicroProfile JWT.
+
+=== Abstract
+
+The specification enables mapping MicroProfile JWT tokens to Jakarta EE container APIs not included in the MicroProfile umbrella and provides a place where Jakarta EE specifications, such as Jakarta Security, can build requirements and seamless integrations with MicroProfile JWT.
+
+In order not to introduce circular dependencies, this specification is to be created with the following scopes:
+
+* Define the annotations to working with JWT authentication mechanisms such as how to configure the JWT claims. 
+
+* Spec language would be added to state: Format of the JWT must comply with MP spec. Validation and handling of the JWT must comply with MP spec. 
+
+* Move the optional section of MP JWT to the new bridge spec together with TCKs. 
+
+* This specification does not limit only to Jakarta security and it may also include other relevant technologies.
+
+==== Certification
+
+The MP JWT Bridge spec would have a class of certification explicitly laid out for each of the three use cases. Each class of certification will have a distinct name and unambiguous requirements detailed in the MP JWT Bridge spec.
+
+* **Jakarta EE Core Profile** implementations that ship **additional specs**. This class of certification caters to MP JWT implementations built on the Jakarta EE Core Profile that implement additional Jakarta EE specifications that have MP JWT Bridge spec requirements. This class of implementation would need to pass the Jakarta EE Core Profile TCK, MP JWT TCK, the corresponding Jakarta EE specifications' TCKs plus the JWT Bridge TCK tests that pertain to each of the additional Jakarta EE specs.
+
+* **Jakarta EE Web Profile** implementations. This class of certification caters to MP JWT implementations built on the Jakarta EE Web Profile.  Implementations need to pass the Jakarta EE Web Profile TCK, MP JWT TCK, plus all requirements in the JWT Bridge spec that apply to specifications in the Jakarta EE Web Profile. Implementations in this class are not eligible to certify as a Core Profile implementation.
+
+* **Jakarta EE Platform** implementations. This class of certification caters to MP JWT implementations built on the Jakarta EE Platform.  Implementations need to pass the Jakarta EE Platform TCK, MP JWT TCK, plus all requirements in the JWT Bridge spec that apply to specifications in the Jakarta EE Platform. Implementations in this class are not eligible to certify as a Web Profile or Core Profile implementation.
+
+==== Sandbox
+
+More information can be found in MicroProfile sandbox https://github.com/eclipse/microprofile-sandbox/tree/main/proposals/jwt-bridge[jwt-bridge proposal].
+
+# Ballots
