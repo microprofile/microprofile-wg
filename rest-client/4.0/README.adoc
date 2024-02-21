@@ -1,0 +1,31 @@
+---
+title: "MicroProfile Rest Client 4.0"
+date: 2024-05-03
+summary: 
+---
+The MicroProfile Rest Client provides a type-safe approach to invoke RESTful services over HTTP. 
+
+This is a major release of this specification. This release will align with Jakarta EE 10 Core Profile and integrate with Jakarta Restful Web Services 3.1. 
+
+The following updates are provided:
+
+* Align with Jakarta EE 10 Core Profile 
+* Have string overloaded methods for uri/url methods
+* Clarification about closing the rest client
+* ClientRequestFilter and ClientResponseFilter priority tests absent from MP Rest Client TCK
+
+The proposed issues to be addressed in this release can be found https://github.com/eclipse/microprofile-rest-client/milestone/10[here].
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/rest-client-4.0[MicroProfile Rest Client 4.0 Release Record]
+
+# Ballots
+
+== Plan Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+
+== Release Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
