@@ -9,6 +9,7 @@ This is a major release. This release adopts the OpenTelemetry Metrics and Logs 
 The following updates are provided:
 
 * Adopt the latest release of OpenTelemetry 
+* Adopt the latest release of Semantic Conventions 
 * Update plugin dependencies 
 * Add OpenTelemetry Metrics
 * Add OpenTelemetry Logs
