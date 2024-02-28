@@ -1,6 +1,6 @@
 ---
 title: "MicroProfile Telemetry 2.0"
-date: 2024-05-03
+date: 2024-06-19
 summary: 
 ---
 MicroProfile Telemetry is to adopt OpenTelemetry from CNCF to allow MicroProfile Applications benefit from OpenTelemetry and enable Jakarta RESTful Web Services automatically to be observed if configured.
