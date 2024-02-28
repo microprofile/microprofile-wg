@@ -1,0 +1,28 @@
+---
+title: "MicroProfile Fault Tolerance 5.0"
+date: 2024-06-19
+summary: "Release for MicroProfile 7.0"
+---
+MicroProfile Fault Tolerance provides a set of annotations to enable microservices resilient.
+
+This is a major release of this specification. This release will align with Jakarta EE 10 Core Profile.
+
+The following updates are provided:
+* Align with Jakarta EE 10 Core Profile
+* Work with MicroProfile Telemetry Metrics
+
+The proposed issues to be addressed in this release can be found https://github.com/eclipse/microprofile-fault-tolerance/milestone/11[here].
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/fault-tolerance-5.0[MicroProfile Fault Tolerance 5.0 Release Record]
+
+# Ballots
+
+== Plan Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+
+== Release Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
