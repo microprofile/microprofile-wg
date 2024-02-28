@@ -1,6 +1,6 @@
 ---
 title: "MicroProfile Rest Client 4.0"
-date: 2024-05-03
+date: 2024-06-19
 summary: 
 ---
 The MicroProfile Rest Client provides a type-safe approach to invoke RESTful services over HTTP. 
