@@ -1,0 +1,46 @@
+---
+title: "MicroProfile 7.0"
+date: 2024-06-19
+summary: "MicroProfile 7.0 Release Plan"
+---
+
+MicroProfile follows a train model for its Platform releases. Typically, three Platform releases are planned for each year in February, June, and October. MicroProfile releases components that are ready and have been approved for inclusion will be part of the Platform release. From this release onwards, Jakarta EE Core Profile will no longer be packaged in the MicroProfile BOM and the dependency has been made to be loosely coupled. MicroProfile Metrics specification is no longer included in the platform release, because the Metrics from MicroProfile Telemetry should be used instead. The specifications in MicroProfile 7.0 include:
+
+* Config 3.1
+* Fault Tolerance 5.0*
+* Health 4.0
+* JWT RBAC 3.0*
+* OpenAPI 4.0*
+* Rest Client 4.0*
+* Telemetry 2.0*
+
+pass:[*] - New or Updated
+
+Potential CVE needs to be addressed
+
+Jakarta EE 10 Core Profile includes the following specifications, which must be implemented by MicroProfile 7.0 implementations:
+
+* Jakarta Annotations 2.1
+* Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
+* Jakarta Dependency Injection 2.0
+* Jakarta Interceptors 2.1
+* Jakarta JSON Binding 3.0
+* Jakarta JSON Processing 2.1
+* Jakarta RESTful Web Services 3.1
+
+pass:[**] Full CDI support is not required. CDI SE support is not required.
+
+Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-7.0[here].
+
+# Ballots
+
+== Plan Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+
+== Release Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+Footer
