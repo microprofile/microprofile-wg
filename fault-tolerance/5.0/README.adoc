@@ -3,7 +3,8 @@ title: "MicroProfile Fault Tolerance 5.0"
 date: 2024-06-19
 summary: "Release for MicroProfile 7.0"
 ---
-MicroProfile Fault Tolerance provides a set of annotations to enable microservices resilient.
+MicroProfile Fault Tolerance provides a set of annotations for creating resilient microservices.
+
 
 This is a major release of this specification. This release will align with Jakarta EE 10 Core Profile.
 
