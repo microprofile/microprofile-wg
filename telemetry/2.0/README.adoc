@@ -1,0 +1,34 @@
+---
+title: "MicroProfile Telemetry 2.0"
+date: 2024-06-19
+summary: 
+---
+MicroProfile Telemetry adopts OpenTelemetry from the CNCF and adds MicroProfile specification integration for improved MicroProfile application observability.
+
+This is a major release. This release adopts the OpenTelemetry Metrics and Logs in addition to the OpenTelemetry Tracing in the previous MicroProfile Telemetry releases.
+The following updates are provided:
+
+* Adopt the latest release of OpenTelemetry 
+* Adopt the latest release of Semantic Conventions 
+* Update plugin dependencies 
+* Add OpenTelemetry Metrics
+* Add OpenTelemetry Logs
+
+The proposed issues to be addressed in this release can be found https://github.com/eclipse/microprofile-telemetry/milestone/2[here].
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/telemetry-2.0[MicroProfile Telemetry 2.0 Release Record]
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+.Plan Review Ballot Result
+
+The ballot was run successfully in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+
+== Release Review
+.Release Review Ballot Result
+
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd. The detailed results can be found https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[here].
