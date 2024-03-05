@@ -1,7 +1,7 @@
 ---
 title: "MicroProfile Open API 4.0 (under development)"
 date: 2024-06-19
-summary: "Release for OpenAPI 3.1 Spec Support"
+summary: "Release for MicroProfile 7.0"
 ---
 MicroProfile Open API 4.0 aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3.1 documents from their Jakarta REST applications.
 
