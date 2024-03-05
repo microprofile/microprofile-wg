@@ -1,9 +1,9 @@
 ---
 title: "MicroProfile Open API 4.0 (under development)"
-date: To Be Determined
+date: 2024-06-19
 summary: "Release for OpenAPI 3.1 Spec Support"
 ---
-MicroProfile Open API aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3.0 and v3.1 documents from their Jakarta REST applications.
+MicroProfile Open API 4.0 aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3.1 documents from their Jakarta REST applications.
 
 The goal of this release is to provide features requested by the community, with a focus on adding support for the OpenAPI v3.1 specification. Changes targeting the release include:
 
@@ -20,9 +20,9 @@ The goal of this release is to provide features requested by the community, with
 * A configuration example in microprofile-openapi-spec.asciidoc is missing a comma which causes schema parse error (https://github.com/eclipse/microprofile-open-api/issues/568[568])
 
 
-The release will not contain any backwards incompatible changes - to be determined.
+The release will contain backwards incompatible changes.
 
-* MicroProfile Open API 4.0 Release Record - link to be provided
+* https://projects.eclipse.org/projects/technology.microprofile/releases/openapi-4.0[MicroProfile Open API 4.0 Release Record]
 
 # Ballots
 
