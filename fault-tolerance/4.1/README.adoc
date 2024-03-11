@@ -9,7 +9,8 @@ MicroProfile Fault Tolerance provides a set of annotations for creating resilien
 This is a minor release of this specification to provide the integration with MicroProfile Telemetry 2.0.
 
 The following update is provided:
-* Work with MicroProfile Telemetry Metrics
+
+ - Work with MicroProfile Telemetry Metrics
 
 The proposed issues to be addressed in this release can be found https://github.com/eclipse/microprofile-fault-tolerance/milestone/11[here].
 
