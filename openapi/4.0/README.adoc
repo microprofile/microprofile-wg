@@ -11,7 +11,7 @@ The goal of this release is to provide features requested by the community, with
 
 * Changes for OpenAPI Specification (OAS) v3.1 (https://github.com/eclipse/microprofile-open-api/issues/333[333])
 ** https://github.com/eclipse/microprofile-open-api/issues?q=is%3Aissue+is%3Aopen+label%3A%22OAS+3.1.0%22+milestone%3A%22MP+OpenAPI+4.0%22[Detailed listing of issues for OAS v3.1 in the MP OpenAPI 4.0 milestone]
-* Update JAX-RS to Jakarta RESTful Web Services with Jakarta EE 10 alignment (https://github.com/eclipse/microprofile-open-api/issues/574[574])
+* Update JAX-RS to Jakarta RESTful Web Services (https://github.com/eclipse/microprofile-open-api/issues/574[574])
 
 === Other Changes
 
