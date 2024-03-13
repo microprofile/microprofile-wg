@@ -1,0 +1,36 @@
+---
+title: "MicroProfile JWT Auth 3.0"
+date: 2024-06-19
+summary: "Release for MicroProfile 7.0"
+---
+MicroProfile JWT Auth outlines how JWT tokens issued by OpenId Connect and other trusted providers can be verified and their claims used for Role Based Access Control (RBAC) of microservice endpoints.
+
+This is a major release of this specification.
+
+=== API/SPI Changes
+
+org.eclipse.microprofile.jwt.JsonWebToken interface will have a new method for retrieving the token's headers:
+`jakarta.json.JsonObject getHeaders();`: https://github.com/eclipse/microprofile-jwt-auth/issues/327
+
+=== Other Changes
+
+* Remove optional MP JWT specification text and TCK tests: https://github.com/eclipse/microprofile-jwt-auth/issues/323
+* Clarify that a `preferred_username` claim which can be used as a principal name is not unique: https://github.com/eclipse/microprofile-jwt-auth/issues/319 
+* Add a TCK test for the `mp.jwt.verify.clock.skew` property: https://github.com/eclipse/microprofile-jwt-auth/issues/314
+* Require that the minimum RSA signing key size is 2048 bits: https://github.com/eclipse/microprofile-jwt-auth/issues/142
+ 
+The release will not contain any backwards incompatible binary changes. However, "Removing optional MP JWT specification text and TCK tests" and "Require that the minimum RSA signing key size is 2048 bits" changes are major changes which may break the existing MP JWT applications.
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-jwt-auth-3.0[MicroProfile JWT Auth 3.0 Release Record]
+
+# Ballots
+
+== Plan Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+
+== Release Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
