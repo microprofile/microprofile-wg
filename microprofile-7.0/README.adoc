@@ -9,7 +9,7 @@ MicroProfile follows a train model for its Platform releases. Typically, three P
 * Config 3.1
 * Fault Tolerance 5.0*
 * Health 4.0
-* JWT RBAC 2.1*
+* JWT RBAC 2.1
 * OpenAPI 4.0*
 * Rest Client 4.0*
 * Telemetry 2.0*
