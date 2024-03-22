@@ -4,7 +4,20 @@ date: 2024-06-19
 summary: "MicroProfile 7.0 Release Plan"
 ---
 
-MicroProfile follows a train model for its Platform releases. Typically, three Platform releases are planned for each year in February, June, and October. MicroProfile releases components that are ready and have been approved for inclusion will be part of the Platform release. From this release onwards, Jakarta EE Core Profile will no longer be packaged in the MicroProfile BOM and the dependency has been made to be loosely coupled. MicroProfile Metrics specification is no longer included in the platform release, because the Metrics from MicroProfile Telemetry should be used instead. The specifications in MicroProfile 7.0 include:
+
+
+MicroProfile follows a regular release cadence with three updates planned annually in February, June, and October. Each release incorporates components that have completed development and gained community approval.
+
+Key Changes in MicroProfile 7.0
+
+* *Jakarta EE Decoupling:* Starting with version 7.0, the Jakarta EE Core Profile is no longer automatically included in the MicroProfile Bill of Materials (BOM). Dependencies are now loosely coupled.
+
+* *MicroProfile Metrics as a Standalone Specification:* The MicroProfile Metrics specification is being moved from the MicroProfile 7.0 Platform Specification to evolve as a Standalone Specification. MicroProfile Telemetry 2.0, which is already in the MicroProfile Platform Specification, has added Metrics functionality.
+
+MicroProfile 7.0 Specifications
+
+This release includes the following specifications:
+
 
 * Config 3.1
 * Fault Tolerance 5.0*
