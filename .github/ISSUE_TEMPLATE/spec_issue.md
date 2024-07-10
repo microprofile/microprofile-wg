@@ -34,14 +34,14 @@ When creating a specification project release review, create an issue in the [Mi
 <p>
 
 - [ ] Summary that a Compatible Implementation is complete, passes the TCK, and that the TCK includes sufficient coverage of the specification.
-     - [ ] [Compatible Certification Request] (add link of Compatible Certification Request in the corresponding spec repo (e.g. MicroProfile Config)
+     - [ ] [Compatible Certification Request] (add link of Compatible Certification Request in the corresponding spec repo (e.g. MicroProfile Config))
 <p>
 
 - [ ] [Release Review](https://www.eclipse.org/projects/handbook/#release-review)
   - [ ] Follow [governance process](https://projects.eclipse.org/projects/technology.microprofile/governance) and create/update release record
     - [Component Release Record](add link to the release record)
   - [ ] [Email to PMC](mailto:technology-pmc@eclipse.org) (more info [here](https://docs.google.com/document/d/1DFuh3rINWAZQpHpXnB_QM02tAXlI4KwbLjVBk9rX9HA/edit))
-  - [ ] Start release review by [emailing EMO](mailto:EMO@eclipse-foundation.org) (more info [here](https://docs.google.com/document/d/1euy5ezuSpa6Xn4qV7MTXCWCMJIn16GYiiO-U7H6R-1w/edit))(Track the [bug issue](add link) created by EMO after the email) 
-  - [ ] A member of Steering Committee initiates the ballot by sending an email to [microprofile-wg] (mailto:microprofile-wg@eclipse.org) (more info [here](https://docs.google.com/document/d/1ivzeL4mdqZPwyQR6e5GtCv81F_ZfLOpsg8FaZUoDDuc/edit#heading=h.6e35ro9vzyji)
-   - [ ] After the voting has ended, email [microprofile-wg] (mailto:microprofile-wg@eclipse.org) with the ballot result (more info [here](https://docs.google.com/document/d/1wISp-yRzQZNOHULNekxxg1U18be3v-3CRUswklcpmr8/edit)
+  - [ ] Start release review by [emailing EMO](mailto:EMO@eclipse-foundation.org) (more info [here](https://docs.google.com/document/d/1euy5ezuSpa6Xn4qV7MTXCWCMJIn16GYiiO-U7H6R-1w/edit)) 
+  - [ ] A member of Steering Committee initiates the ballot by sending an email to [microprofile-wg] (mailto:microprofile-wg@eclipse.org) (more info [here](https://docs.google.com/document/d/1ivzeL4mdqZPwyQR6e5GtCv81F_ZfLOpsg8FaZUoDDuc/edit#heading=h.6e35ro9vzyji))
+   - [ ] After the voting has ended, email [microprofile-wg] (mailto:microprofile-wg@eclipse.org) with the ballot result (more info [here](https://docs.google.com/document/d/1wISp-yRzQZNOHULNekxxg1U18be3v-3CRUswklcpmr8/edit))
   
