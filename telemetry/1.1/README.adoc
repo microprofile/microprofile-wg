@@ -1,5 +1,5 @@
 ---
-title: "MicroProfile Telemetry 1.1 (under development)"
+title: "MicroProfile Telemetry 1.1"
 date: 2023-05-15
 summary: 
 ---
