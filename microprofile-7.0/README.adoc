@@ -1,0 +1,59 @@
+---
+title: "MicroProfile 7.0"
+date: 2024-06-19
+summary: "MicroProfile 7.0 Release Plan"
+---
+
+
+
+MicroProfile follows a regular release cadence with three updates planned annually in February, June, and October. Each release incorporates components that have completed development and gained community approval.
+
+Key Changes in MicroProfile 7.0
+
+* *Jakarta EE Decoupling:* Starting with version 7.0, the Jakarta EE Core Profile is no longer automatically included in the MicroProfile Bill of Materials (BOM). Dependencies are now loosely coupled.
+
+* *MicroProfile Metrics as a Standalone Specification:* The MicroProfile Metrics specification is being moved from the MicroProfile 7.0 Platform Specification to evolve as a Standalone Specification. MicroProfile Telemetry 2.0, which is already in the MicroProfile Platform Specification, has added Metrics functionality.
+
+MicroProfile 7.0 Specifications
+
+This release includes the following specifications:
+
+
+* Config 3.1
+* Fault Tolerance 5.0*
+* Health 4.0
+* JWT RBAC 2.1
+* OpenAPI 4.0*
+* Rest Client 4.0*
+* Telemetry 2.0*
+
+pass:[*] - New or Updated
+
+Potential CVE needs to be addressed
+
+Jakarta EE 10 Core Profile includes the following specifications, which must be implemented by MicroProfile 7.0 implementations:
+
+* Jakarta Annotations 2.1
+* Jakarta Contexts and Dependency Injection (Lite Section) 4.0**
+* Jakarta Dependency Injection 2.0
+* Jakarta Interceptors 2.1
+* Jakarta JSON Binding 3.0
+* Jakarta JSON Processing 2.1
+* Jakarta RESTful Web Services 3.1
+
+pass:[**] Full CDI support is not required. CDI SE support is not required.
+
+Release plan is https://projects.eclipse.org/projects/technology.microprofile/releases/microprofile-7.0[here].
+
+# Ballots
+
+== Plan Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+
+== Release Review
+The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+Footer
