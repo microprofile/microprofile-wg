@@ -1,0 +1,41 @@
+---
+title: "MicroProfile Open API 4.0 (under development)"
+date: 2024-06-19
+summary: "Release for MicroProfile 7.0"
+---
+MicroProfile Open API 4.0 aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3.1 documents from their Jakarta REST applications.
+
+The goal of this release is to provide features requested by the community, with a focus on adding support for the OpenAPI v3.1 specification. Changes targeting the release include:
+
+=== API/SPI Changes
+
+* Changes for OpenAPI Specification (OAS) v3.1 (https://github.com/eclipse/microprofile-open-api/issues/333[333])
+** https://github.com/eclipse/microprofile-open-api/issues?q=is%3Aissue+is%3Aopen+label%3A%22OAS+3.1.0%22+milestone%3A%22MP+OpenAPI+4.0%22[Detailed listing of issues for OAS v3.1 in the MP OpenAPI 4.0 milestone]
+* Update JAX-RS to Jakarta RESTful Web Services (https://github.com/eclipse/microprofile-open-api/issues/574[574])
+
+=== Other Changes
+
+* Make request body required by default (https://github.com/eclipse/microprofile-open-api/issues/349[349])
+* MP Parent version deviates from MP Parent TCK BOM version (https://github.com/eclipse/microprofile-open-api/issues/573[573])
+* A configuration example in microprofile-openapi-spec.asciidoc is missing a comma which causes schema parse error (https://github.com/eclipse/microprofile-open-api/issues/568[568])
+
+
+The release will contain backwards incompatible changes.
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/openapi-4.0[MicroProfile Open API 4.0 Release Record]
+
+# Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the following results.
+
+.Plan Review Ballot Result
+|=============================================================================
+| Representative                         | Representative for:         | Vote
+|----------------------------------------|-----------------------------|------
+| <Name>                                 | <Company/Organization>      | <+1/-1/No vote>
+| Total                                  |                             |  0
+|=============================================================================
+
+The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list]
