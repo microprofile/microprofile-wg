@@ -48,12 +48,7 @@ Release plan is https://projects.eclipse.org/projects/technology.microprofile/re
 # Ballots
 
 == Plan Review
-The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
-
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+The Specification Committee Ballot concluded successfully on The Specification Committee Ballot concluded successfully on 2024-03-28 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02466.html[microprofile-wg mailing list].
 
 == Release Review
-The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
-
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
-Footer
+The Specification Committee Ballot concluded successfully on 2024-08-21 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02607.html[microprofile-wg mailing list]

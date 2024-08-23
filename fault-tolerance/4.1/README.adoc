@@ -19,11 +19,7 @@ The proposed issues to be addressed in this release can be found https://github.
 # Ballots
 
 == Plan Review
-The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
-
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+The Specification Committee Ballot concluded successfully on 2024-03-28 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02458.html[microprofile-wg mailing list].
 
 == Release Review
-The Specification Committee Ballot concluded successfully on yyyy-mm-dd with the following results.
-
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgxxxx.html[microprofile-wg mailing list]
+The Specification Committee Ballot concluded successfully on 2024-08-21 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02605.html[microprofile-wg mailing list]
