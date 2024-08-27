@@ -28,14 +28,7 @@ The release will contain backwards incompatible changes.
 
 == Plan Review
 
-The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the following results.
+The Specification Committee Ballot concluded successfully on 2024-03-28 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02459.html[microprofile-wg mailing list].
 
-.Plan Review Ballot Result
-|=============================================================================
-| Representative                         | Representative for:         | Vote
-|----------------------------------------|-----------------------------|------
-| <Name>                                 | <Company/Organization>      | <+1/-1/No vote>
-| Total                                  |                             |  0
-|=============================================================================
-
-The ballot was run in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list]
+== Release Review
+The Specification Committee Ballot concluded successfully on 2024-08-21 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02582.html[microprofile-wg mailing list]
