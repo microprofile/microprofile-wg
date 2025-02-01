@@ -9,16 +9,16 @@ The goal of this release is to provide minor API enhancements and TCK fixes, con
 
 === API/SPI Changes
 
-* @DependentRequired, @DependentSchema and @SchemaProperty are missing @Target (https://github.com/eclipse/microprofile-open-api/issues/676[676])
-* Add methods to access a single extension to Extensible (https://github.com/eclipse/microprofile-open-api/issues/666[666])
-* OpenAPI model object is missing jsonSchemaDialect property (https://github.com/eclipse/microprofile-open-api/issues/660[660])
+* `@DependentRequired`, `@DependentSchema`, and `@SchemaProperty` are missing `@Target` (https://github.com/eclipse/microprofile-open-api/issues/676[676])
+* Add methods to access a single extension to `Extensible` (https://github.com/eclipse/microprofile-open-api/issues/666[666])
+* OpenAPI model object is missing `jsonSchemaDialect` property (https://github.com/eclipse/microprofile-open-api/issues/660[660])
 
 === Other Changes
 
 * TCK tests logging "Static configuration methods can cause unexpected behavior." (https://github.com/eclipse/microprofile-open-api/issues/664[664])
 
 
-The release will not contain any backwards incompatible changes.
+The release will not contain any backwards incompatible changes. However, the addition of a `@Target` to several annotations means that any code currently using the annotation in an incorrect and unsupported way by direct placement on a target will not be source-compatible with the release.
 
 * https://projects.eclipse.org/projects/technology.microprofile/releases/openapi-4.1[MicroProfile Open API 4.1 Release Record]
 
