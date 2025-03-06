@@ -1,6 +1,6 @@
 ---
 title: "MicroProfile Open API 4.1 (under development)"
-date: 2025-03-01
+date: 2025-04-01
 summary: "Release for MicroProfile 7.1"
 ---
 MicroProfile Open API 4.1 aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3.1 documents from their Jakarta REST applications.
@@ -26,7 +26,7 @@ The release will not contain any backwards incompatible changes. However, the ad
 
 == Plan Review
 
-The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list].
+The Specification Committee Ballot concluded successfully on 2025-03-03 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02721.html[microprofile-wg mailing list].
 
 == Release Review
 The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list]
