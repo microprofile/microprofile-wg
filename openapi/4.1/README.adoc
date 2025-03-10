@@ -1,0 +1,32 @@
+---
+title: "MicroProfile Open API 4.1 (under development)"
+date: 2025-04-01
+summary: "Release for MicroProfile 7.1"
+---
+MicroProfile Open API 4.1 aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3.1 documents from their Jakarta REST applications.
+
+The goal of this release is to provide minor API enhancements and TCK fixes, continuing the focus on support for the OpenAPI v3.1 specification. Changes targeting the release include:
+
+=== API/SPI Changes
+
+* `@DependentRequired`, `@DependentSchema`, and `@SchemaProperty` are missing `@Target` (https://github.com/eclipse/microprofile-open-api/issues/676[676])
+* Add methods to access a single extension to `Extensible` (https://github.com/eclipse/microprofile-open-api/issues/666[666])
+* OpenAPI model object is missing `jsonSchemaDialect` property (https://github.com/eclipse/microprofile-open-api/issues/660[660])
+
+=== Other Changes
+
+* TCK tests logging "Static configuration methods can cause unexpected behavior." (https://github.com/eclipse/microprofile-open-api/issues/664[664])
+
+
+The release will not contain any backwards incompatible changes. However, the addition of a `@Target` to several annotations means that any code currently using the annotation in an incorrect and unsupported way by direct placement on a target will not be source-compatible with the release.
+
+* https://projects.eclipse.org/projects/technology.microprofile/releases/openapi-4.1[MicroProfile Open API 4.1 Release Record]
+
+= Ballots
+
+== Plan Review
+
+The Specification Committee Ballot concluded successfully on 2025-03-03 with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msg02721.html[microprofile-wg mailing list].
+
+== Release Review
+The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list]
