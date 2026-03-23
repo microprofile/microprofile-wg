@@ -1,0 +1,38 @@
+---
+title: "MicroProfile Open API 4.2"
+date: 2026-07-21
+summary: 
+---
+MicroProfile Open API 4.2 aims to provide a set of Java interfaces and programming models which allow Java developers to natively produce OpenAPI v3.1 documents from their Jakarta REST applications.
+
+The goal of this release is to provide minor API enhancements and TCK fixes. Changes targeting the release include:
+
+== API/SPI Changes
+
+- Deprecate `allowEmptyValue` property of Header for removal (https://github.com/microprofile/microprofile-open-api/issues/727[#727])
+- Clarify how setExtension and getExtension work with Schema properties (https://github.com/microprofile/microprofile-open-api/issues/698[#698])
+- Missing usage of examples ExampleObject[] in @Header annotation (https://github.com/microprofile/microprofile-open-api/issues/697[#697])
+- Consider removal of `@ExternalDocumentation` on `TYPE` targets (https://github.com/microprofile/microprofile-open-api/issues/725[#725])
+
+== Other Changes
+
+- Support for `multipleOf` schema assertion from `@Digits` BV constraint (https://github.com/microprofile/microprofile-open-api/issues/717[#717])
+- Several TCK properties files use invalid multiline comments (https://github.com/microprofile/microprofile-open-api/issues/721[#721])
+- [TCK] - Mising test coverage for the `@ExternalDocumentation` annotation usage (https://github.com/microprofile/microprofile-open-api/issues/713[#713])
+- TCK Resource `ZepplinResource` contains duplicate operationId values (https://github.com/microprofile/microprofile-open-api/issues/710[#710])
+
+The proposed issues for this release are listed on the https://github.com/microprofile/microprofile-open-api/milestone/14[4.2 Milestone]
+
+The removal of the specified behaviour for `@ExternalDocumentation` when applied to a type (https://github.com/microprofile/microprofile-open-api/issues/725[#725]) would be a breaking change. However, this functionality is untested by the TCK and, as far as we know, not implemented by any implementation. If this is not acceptable in a minor release, we would defer this change to the next major release.
+
+https://projects.eclipse.org/projects/technology.microprofile/releases/openapi-4.2[MicroProfile Open API 4.2 Release Record]
+
+== Ballots
+
+=== Plan Review
+
+The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list].
+
+=== Release Review
+
+The Specification Committee Ballot concluded successfully on YYYY-MM-DD with the results documented in the https://www.eclipse.org/lists/microprofile-wg/msgXXXXX.html[microprofile-wg mailing list]
